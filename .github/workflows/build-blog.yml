@@ -1,0 +1,23 @@
+name: "Hexo Blog Builder"
+
+on: [push]
+
+jobs:
+  format:
+    name: "Run Clang Format"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Install Hexo
+        run: npm install -g hexo
+      - name: Install Dependency
+        run: npm install
+      - name: Hexo Clean
+        run: hexo clean
+      - name: Hexo Build
+        run: hexo g
+      - name: Deploy
+        run: mv public docs
