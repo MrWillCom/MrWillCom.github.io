@@ -1,0 +1,23 @@
+name: "Hexo Blog Builder"
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: "Build Hexo Blog"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Install Hexo
+        run: npm install -g hexo
+      - name: Install Dependencies
+        run: npm install
+      - name: Clean Previous Build
+        run: rm -rf docs
+      - name: Generate New Build
+        run: hexo generate
+      - name: Move docs/ to public/
+        run: mv public docs
