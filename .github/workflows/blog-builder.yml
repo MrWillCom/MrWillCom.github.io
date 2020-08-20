@@ -15,10 +15,8 @@ jobs:
         run: npm install -g hexo
       - name: Install Dependencies
         run: npm install
-      - name: Move docs/ to public/
-        run: mv docs public
       - name: Clean Previous Build
-        run: hexo clean
+        run: rm -rf docs
       - name: Generate New Build
         run: hexo generate
       - name: Move docs/ to public/
