@@ -1,10 +1,10 @@
 name: "Hexo Blog Builder"
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
-  format:
-    name: "Run Clang Format"
+  build:
+    name: "Build Hexo Blog"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -13,11 +13,13 @@ jobs:
           node-version: '12'
       - name: Install Hexo
         run: npm install -g hexo
-      - name: Install Dependency
+      - name: Install Dependencies
         run: npm install
-      - name: Hexo Clean
+      - name: Move docs/ to public/
+        run: mv docs public
+      - name: Clean Previous Build
         run: hexo clean
-      - name: Hexo Build
-        run: hexo g
-      - name: Deploy
+      - name: Generate New Build
+        run: hexo generate
+      - name: Move docs/ to public/
         run: mv public docs
