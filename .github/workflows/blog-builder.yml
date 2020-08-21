@@ -24,7 +24,7 @@ jobs:
       - name: Hexo Clean
         run: hexo clean
       - name: Generate New Build
-        run: Hexo Generate
+        run: hexo generate
       - name: Move docs/ to public/
         run: mv public docs
       - name: Publish
