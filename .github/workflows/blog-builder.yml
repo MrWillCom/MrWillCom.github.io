@@ -21,3 +21,15 @@ jobs:
         run: hexo generate
       - name: Move docs/ to public/
         run: mv public docs
+      - name: Deploy
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{ secrets.KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 
+          git config --global user.name "Hexo Deploy Bot"
+          git config --global user.email "deploy-bot@louis.studio"
+          git config --global core.quotepath false
+          git add --all
+          git commit -m "Push to the repo"
+          git push origin master
