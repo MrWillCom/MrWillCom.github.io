@@ -34,4 +34,4 @@ jobs:
           git config --global core.quotepath false
           git add --all
           git commit -m "Hexo Blog Build"
-          git push origin master --force
+          git push origin master
