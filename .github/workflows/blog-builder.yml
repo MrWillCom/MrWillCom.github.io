@@ -1,4 +1,6 @@
-#  Created by Louis Aeilot on 2020/8/21. (GitHub: @aeilot)
+# Contributors: @MrWillCom , @aeilot
+# Created by Louis Aeilot on 2020/8/21. (GitHub: @aeilot)
+# Improved by Mr. Will on 2020/8/21. (GitHub: @MrWillCom)
 
 name: "Hexo Blog Builder"
 
@@ -19,8 +21,10 @@ jobs:
         run: npm install
       - name: Clean Previous Build
         run: rm -rf docs
+      - name: Hexo Clean
+        run: hexo clean
       - name: Generate New Build
-        run: hexo generate
+        run: Hexo Generate
       - name: Move docs/ to public/
         run: mv public docs
       - name: Publish
@@ -28,7 +32,7 @@ jobs:
           mkdir -p ~/.ssh/
           echo "${{ secrets.KEY }}" > ~/.ssh/id_rsa.pub
           chmod 600 ~/.ssh/id_rsa.pub
-          ssh-keyscan github.com >> ~/.ssh/known_hosts 
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.name "Hexo Deploy Bot"
           git config --global user.email "nobody@nobody.nobody"
           git config --global core.quotepath false
