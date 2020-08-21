@@ -32,4 +32,4 @@ jobs:
           git config --global core.quotepath false
           git add --all
           git commit -m "Push to the repo"
-          git push origin master
+          git push origin master --force
