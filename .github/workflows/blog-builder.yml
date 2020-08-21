@@ -1,10 +1,12 @@
+#  Created by Louis Aeilot on 2020/8/21. (GitHub: @aeilot)
+
 name: "Hexo Blog Builder"
 
 on: [push, pull_request]
 
 jobs:
   build:
-    name: "Build Hexo Blog"
+    name: "Hexo Blog Builder"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -21,3 +23,15 @@ jobs:
         run: hexo generate
       - name: Move docs/ to public/
         run: mv public docs
+      - name: Publish
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{ secrets.KEY }}" > ~/.ssh/id_rsa.pub
+          chmod 600 ~/.ssh/id_rsa.pub
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 
+          git config --global user.name "Hexo Deploy Bot"
+          git config --global user.email "nobody@nobody.nobody"
+          git config --global core.quotepath false
+          git add --all
+          git commit -m "Hexo Blog Build"
+          git push origin master
