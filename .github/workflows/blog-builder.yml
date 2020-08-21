@@ -1,10 +1,12 @@
+#  Created by Louis Aeilot on 2020/8/21. (GitHub: @aeilot)
+
 name: "Hexo Blog Builder"
 
 on: [push, pull_request]
 
 jobs:
   build:
-    name: "Build Hexo Blog"
+    name: "Hexo Blog Builder"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -31,5 +33,5 @@ jobs:
           git config --global user.email "nobody@nobody.nobody"
           git config --global core.quotepath false
           git add --all
-          git commit -m "Push to the repo"
+          git commit -m "Hexo Blog Build"
           git push origin master --force
