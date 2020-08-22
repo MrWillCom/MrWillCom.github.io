@@ -8,7 +8,7 @@ on: [push, pull_request]
 
 jobs:
   build:
-    name: "Hexo Blog Builder"
+    name: "Hexo Blog Build"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,26 +17,20 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
-      # - name: Install Hexo
-      #   run: npm install -g hexo
-      # - name: Install Dependencies
-      #   run: npm install
-      # - name: Clean Previous Build
-      #   run: rm -rf docs
-      # - name: Hexo Clean
-      #   run: hexo clean
-      # - name: Generate New Build
-      #   run: hexo generate
-      # - name: Move docs/ to public/
-      #   run: mv public docs
-      - name: Clean and Build
+      - name: Install Hexo
+        run: npm install -g hexo
+      - name: Install Dependencies
+        run: npm install
+      - name: Clean Previous Build
+        run: rm -rf docs
+      - name: Hexo Clean
+        run: hexo clean
+      - name: Generate New Build
+        run: hexo generate
+      - name: Move docs/ to public/
+        run: mv public docs
+      - name: Publish
         run: |
-          npm install -g hexo
-          npm install
-          rm -rf docs
-          hexo clean
-          hexo generate
-          mv public docs
           mkdir -p ~/.ssh/
           echo "${{ secrets.KEY }}" > ~/.ssh/id_rsa.pub
           chmod 600 ~/.ssh/id_rsa.pub
