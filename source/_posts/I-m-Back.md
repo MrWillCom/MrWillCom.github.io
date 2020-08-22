@@ -16,4 +16,4 @@ Recently, I created a new blog based on [Hexo](https://hexo.io/). I have browsed
 
 [This theme](https://github.com/MrWillCom/hexo-theme-cupertino) is based on Cupertino Design with light border and translucent and acrylic background on navigation bar, supports dark appearance and powerful footer.
 
-This blog is generated automatically by GitHub Actions when I push to the repository, written by [@aeilot](https://github.com/aeilot) and I improved it.
+This blog is generated automatically by [an action](https://github.com/MrWillCom/MrWillCom.github.io/blob/master/.github/workflows/blog-builder.yml) when I push to the repository, written by [@aeilot](https://github.com/aeilot) and I improved it.
