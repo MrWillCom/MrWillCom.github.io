@@ -6,7 +6,7 @@
   <link href="http://http//mrwillcom.github.io/atom.xml" rel="self"/>
   
   <link href="http://http//mrwillcom.github.io/"/>
-  <updated>2020-08-24T06:10:42.394Z</updated>
+  <updated>2020-08-24T08:10:26.218Z</updated>
   <id>http://http//mrwillcom.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://http//mrwillcom.github.io/2020/08/21/I-m-Back/"/>
     <id>http://http//mrwillcom.github.io/2020/08/21/I-m-Back/</id>
     <published>2020-08-21T00:00:00.000Z</published>
-    <updated>2020-08-24T06:10:42.394Z</updated>
+    <updated>2020-08-24T08:10:26.218Z</updated>
     
     <content type="html"><![CDATA[<p><strong><em>Welcome to my new blog!</em></strong></p><a id="more"></a><p>Recently, I created a new blog based on <a href="https://hexo.io/">Hexo</a>. I have browsed all 320 themes on hexo.io, but I don’t like any of them. So I created a new one on my own - <a href="https://github.com/MrWillCom/hexo-theme-cupertino">Cupertino</a>.</p><p><img src="/img/000001.png" alt="A screen shot of theme Cupertino"></p><p><a href="https://github.com/MrWillCom/hexo-theme-cupertino">This theme</a> is based on Cupertino Design with light border and translucent and acrylic background on navigation bar, supports dark appearance and powerful footer.</p><p>This blog is generated automatically by <a href="https://github.com/MrWillCom/MrWillCom.github.io/blob/master/.github/workflows/blog-builder.yml">an action</a> when I push to the repository, written by <a href="https://github.com/aeilot">@aeilot</a> and I improved it.</p>]]></content>
     
