@@ -1,9 +1,7 @@
 ---
 title: Projects
-date: 2020-08-23
+no_date: true
 ---
-
-<div id="cmd-no-date" class="theme-command"></div>
 
 <div class="card-grid">
     <div class="card">
