@@ -15,4 +15,4 @@ If you contact me, I can't respond just on weekdays.
 
 ---
 
-But you can still contact me by email or respond me on GitHub. I can't respond on weekdays and will check all notifications on weekends.
+But you can still contact me by email or respond me on GitHub. I can't respond on weekdays, but will check all notifications at weekends.
