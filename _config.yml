@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cupertino
+theme: hexo-theme-cupertino
 
 plugins:
     hexo-generator-feed
