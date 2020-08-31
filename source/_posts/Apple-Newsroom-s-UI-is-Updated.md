@@ -5,6 +5,10 @@ cover_image: /img/000013.png
 cover_image_alt: A screenshot of Apple Newsroom's new UI
 ---
 
+Apple updated Apple Newsroom's UI.
+
+<!-- more -->
+
 <img src="/img/000013.png" alt="A screenshot of Apple Newsroom's new UI">
 
 <small>A screenshot of Apple Newsroom's new UI, <a href="https://www.apple.com/newsroom/">visit Apple Newsroom</a>.</small>
