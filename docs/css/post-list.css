@@ -1,0 +1,76 @@
+.post-list {
+    user-select: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 600px) {
+    .post-list {
+        display: block;
+    }
+}
+
+.post-list-item {
+    background-color: var(--card-bg);
+    margin-bottom: 21px;
+    border-bottom: 1px solid var(--card-border);
+    transition: all 200ms ease;
+}
+
+.post-list-item:hover {
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.04), -10px 0 20px 0px rgba(0, 0, 0, 0.04);
+    border-bottom: 1px solid transparent;
+}
+
+.post-list-item:nth-child(2n-1) {
+    margin-right: 8px;
+}
+
+.post-list-item:nth-child(2n) {
+    margin-left: 8px;
+}
+
+.post-list-item .cover-img, .post-list-item .cover-img img {
+    width: 100%;
+}
+
+.post-list-item .content {
+    padding: 18px;
+}
+
+.post-list-item .title a, .post-list-item .title a:hover, .post-list-item .title a:focus, .post-list-item .title a:active, .post-list-item .title a:link, .post-list-item .title a:visited {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.post-list-item .excerpt {
+    font-size: 17px;
+    color: var(--black-1);
+}
+
+@media screen and (max-width: 800px) {
+    .post-list-item .content {
+        font-size: 12px;
+    }
+}
+
+.post-list-item .time {
+    font-size: 12px;
+}
+
+.post-list-item .read-more {
+    text-align: right;
+}
+
+.post-list-item .read-more button {
+    font-size: 12px;
+    outline: none;
+    border: none;
+    background-color: var(--blue);
+    color: var(--white-txt-on-blue-bg);
+    padding: 6px 12px;
+    border-radius: 32px;
+    cursor: pointer;
+}
