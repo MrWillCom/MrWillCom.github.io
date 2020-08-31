@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
+      - name: Clone Submodule
+        run: git submodule init && git submodule update
       - name: Install Hexo
         run: npm install -g hexo
       - name: Install Dependencies
