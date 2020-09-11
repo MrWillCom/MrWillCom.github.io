@@ -19,8 +19,6 @@ jobs:
           node-version: '12'
       - name: Clone Submodule
         run: git submodule init && git submodule update
-      - name: Update Submodule
-        run: cd themes/hexo-theme-cupertino && git checkout master && git pull
       - name: Install Hexo
         run: npm install -g hexo
       - name: Install Dependencies
