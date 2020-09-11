@@ -42,7 +42,7 @@ no_date: true
             <p class="description">Stay Hungry. Stay Foolish.</p>
         </div>
         <div class="actions">
-            <a class="action-button-primary" href="https://aeilot.github.io/">Visit</a>
+            <a class="action-button-primary" href="https://aeilot.vercel.app/">Visit</a>
         </div>
     </div>
 </div>
