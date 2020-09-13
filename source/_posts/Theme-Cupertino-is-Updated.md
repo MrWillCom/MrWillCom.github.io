@@ -22,7 +22,7 @@ This new UI is still based on Apple Newsroom's design. It's post list cards have
     </div>
 </div>
 
-This new design is also available in archives page. You can even create one right in your post in Markdown:
+This new design is also available in archives page. You can even create one, right in your post in Markdown:
 
 ```html
 <div class="container">
