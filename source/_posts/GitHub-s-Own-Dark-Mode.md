@@ -5,7 +5,7 @@ cover_image: /img/000016.png
 cover_image_alt: GitHub's own Dark Mode
 ---
 
-I found that GitHub has published its own dark mode that's pretty cool.
+I found that GitHub has published its own dark mode and that's pretty cool.
 
 ![A screenshot of the appearance settings page](/img/000017.png)
 
