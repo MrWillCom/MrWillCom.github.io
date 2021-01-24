@@ -123,4 +123,4 @@ tidio: //code.tidio.co/6bkvqlfpdbtihnufei8yxpsvf98bq5gv.js
 ### Docs: https://waline.js.org/en/server/basic.html#basic-configuration
 waline:
   path: location.pathname
-  serverURL: "'https://mrwillcom.now.sh'"
+  serverURL: "'https://mrwillcom-blog-comments.now.sh/'"
