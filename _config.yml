@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://http://mrwillcom.github.io
+url: https://mrwillcom.vercel.app/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -113,3 +113,14 @@ feed:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Others
+
+## Tidio
+tidio: //code.tidio.co/6bkvqlfpdbtihnufei8yxpsvf98bq5gv.js
+
+## Waline
+### Docs: https://waline.js.org/en/server/basic.html#basic-configuration
+waline:
+  path: location.pathname
+  serverURL: "'https://mrwillcom.now.sh'"
