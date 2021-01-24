@@ -124,4 +124,4 @@ tidio: //code.tidio.co/6bkvqlfpdbtihnufei8yxpsvf98bq5gv.js
 waline:
   path: location.pathname
   serverURL: "'https://mrwillcom-blog-comments.now.sh/'"
-  lang: en
+  lang: "'en'"
