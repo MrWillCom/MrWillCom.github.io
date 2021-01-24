@@ -125,3 +125,4 @@ waline:
   path: location.pathname
   serverURL: "'https://mrwillcom-blog-comments.now.sh/'"
   lang: "'en'"
+  placeholder: "''"
