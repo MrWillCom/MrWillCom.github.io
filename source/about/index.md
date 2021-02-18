@@ -11,9 +11,9 @@ I'm a JavaScript developer, working on some JavaScript open source projects, lea
 
 ## Blog
 
-This blog is based on Hexo, automatically built by [GitHub Actions](https://github.com/MrWillCom/MrWillCom.github.io/blob/master/.github/workflows/blog-builder.yml).
+This blog is based on Hexo, automatically built by [GitHub Actions](https://github.com/MrWillCom/MrWillCom.github.io/blob/master/.github/workflows/blog-builder.yml). You can visit it from [mrwillcom.now.sh](https://mrwillcom.now.sh/) (powered by [Vercel](https://vercel.com/)) or [mrwillcom.github.io](https://mrwillcom.github.io/) (powered by GitHub Pages).
 
-This theme is called Cupertino, you can get it [here](https://github.com/MrWillCom/hexo-theme-cupertino), but it's still in test even it's pretty.
+This theme is called Cupertino, it's open source and you can get it [here](https://github.com/MrWillCom/hexo-theme-cupertino).
 
 ## Me
 
@@ -32,7 +32,3 @@ I always work on my open source porjects at weekends. So if you submitted an iss
 ## Contact
 
 If you want to contact me, just [email me](mailto:mr.will.com@outlook.com).
-
-## Projects
-
-I'm a member of [@BOOK-BLOG](https://github.com/BOOK-BLOG), but our team is focusing on [Transmister](https://github.com/transmister) - *The Secure, Fast, Lightweight messaging app.* If you want to know what I can do, visit [my CodePen home page](https://codepen.io/mrwillcom)

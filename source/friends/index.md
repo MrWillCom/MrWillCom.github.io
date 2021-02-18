@@ -13,7 +13,9 @@ no_comments: true
             <h1>Mr. Will</h1>
             <p>I'm a JavaScript developer, working on some JavaScript open source projects, learning some JavaScript coding skills and sharing my JavaScript coding experiences.</p>
             <div class="actions">
-                <a class="action-button-primary" href="mailto:mr.will.com@outlook.com">Contact</a>
+                <div class="right">
+                    <a class="action-button-primary" href="mailto:mr.will.com@outlook.com">Contact</a>
+                </div>
             </div>
         </div>
     </div>
@@ -31,7 +33,9 @@ no_comments: true
             <p class="description">Young, Simple, Naive</p>
         </div>
         <div class="actions">
-            <a class="action-button-primary" href="https://chungzh.cn/">Visit</a>
+            <div class="right">
+                <a class="action-button-primary" href="https://chungzh.cn/">Visit</a>
+            </div>
         </div>
     </div>
     <div class="card">
@@ -43,7 +47,9 @@ no_comments: true
             <p class="description">Stay Hungry. Stay Foolish.</p>
         </div>
         <div class="actions">
-            <a class="action-button-primary" href="https://aeilot.vercel.app/">Visit</a>
+            <div class="right">
+                <a class="action-button-primary" href="https://aeilot.vercel.app/">Visit</a>
+            </div>
         </div>
     </div>
 </div>
