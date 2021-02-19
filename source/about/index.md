@@ -1,6 +1,7 @@
 ---
 title: About
-date: 2020-08-21
+no_date: true
+no_comments: true
 ---
 
 <div id="cmd-no-date" class="theme-command"></div>
