@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="color-scheme" content="light dark">
+  
+  <title>Encrypt it on Your Own! - Mr. Will</title>
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    <link rel='manifest' href='/manifest.json'>
+  
+
+  
+<link rel="stylesheet" href="/css/var.css">
+
+  
+<link rel="stylesheet" href="/css/main.css">
+
+  
+<link rel="stylesheet" href="/css/typography.css">
+
+  
+<link rel="stylesheet" href="/css/code-highlighting.css">
+
+  
+<link rel="stylesheet" href="/css/components.css">
+
+  
+<link rel="stylesheet" href="/css/nav.css">
+
+  
+<link rel="stylesheet" href="/css/paginator.css">
+
+  
+<link rel="stylesheet" href="/css/footer.css">
+
+  
+<link rel="stylesheet" href="/css/post-list.css">
+
+  
+<link rel="stylesheet" href="/css/waline.css">
+
+  
+  
+  
+<link rel="stylesheet" href="/css/post.css">
+
+  
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+ 
+  
+
+  
+    <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+  
+<meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/atom.xml" title="Mr. Will" type="application/atom+xml">
+</head>
+    <body data-color-scheme="auto">
+        <nav id="theme-nav">
+    <div class="inner">
+        <a class="title" href="/">Blog</a>
+        <div class="nav-arrow"></div>
+        <div class="nav-items">
+            <a class="nav-item nav-item-home" href="/">Home</a>
+            
+            
+            <a class="nav-item" href="/archives">Archives</a>
+            
+            
+            
+            <a class="nav-item" href="/friends">Friends</a>
+            
+            
+            
+            <a class="nav-item" href="/projects">Projects</a>
+            
+            
+            
+            <a class="nav-item" href="/about">About</a>
+            
+            
+            
+            <a class="nav-item nav-item-github nav-item-icon" href="https://github.com/MrWillCom" target="_blank">&nbsp;</a>
+            
+            
+            
+            <a class="nav-item nav-item-codepen nav-item-icon" href="https://codepen.io/mrwillcom" target="_blank">&nbsp;</a>
+            
+            
+            
+            <a class="nav-item nav-item-patreon nav-item-icon" href="https://www.patreon.com/MrWillCom" target="_blank">&nbsp;</a>
+            
+            
+            
+            <a class="nav-item nav-item-mastodon nav-item-icon" href="https://noc.social/@MrWillCom" target="_blank">&nbsp;</a>
+            
+            
+        </div>
+    </div>
+</nav>
+        <article class="post">
+    <div class="meta">
+        
+        <div class="date" id="date">
+            
+            
+            
+            
+            
+            
+            
+            
+            <span>August</span>
+            
+            
+            
+            
+            
+            <span>14,</span>
+            <span>2021</span>
+        </div>
+        
+
+        <h2 class="title">Encrypt it on Your Own!</h2>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="content">
+        <p>Recently, I’ve written a CLI for RSA encryption and decryption - RSA CLI.</p>
+<p>RSA CLI is based on Node.js, works perfectly with all the desktop platforms.</p>
+<p>If you have Node.js environment on your device, with the help of npm, you can install it by running a single line of command:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g rsa-cli</span><br></pre></td></tr></table></figure>
+
+<p>Yarn is also supported:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yarn global add rsa-cli</span><br></pre></td></tr></table></figure>
+
+<p>Without Node.js environment, it’s still easy to install. Just download the executable for your device in <a target="_blank" rel="noopener" href="https://github.com/MrWillCom/rsa-cli/releases">GitHub Releases</a> and execute it.</p>
+<hr>
+<p>Now start encrypting:</p>
+<h2 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rsa generate [keyName]</span><br></pre></td></tr></table></figure>
+
+<p>Run the command above to generate a new key pair. Modulus length is 2048 by default, and if you want to change it, use <code>-l</code> flag:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rsa generate [keyName] -l 4096</span><br></pre></td></tr></table></figure>
+
+<p>Remember <code>[keyName]</code>, it’s needed for next steps.</p>
+<h2 id="0x01"><a href="#0x01" class="headerlink" title="0x01"></a>0x01</h2><p>Get your public key by running:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$ rsa get [keyName]</span><br><span class="line">Public key of key pair <span class="string">&#x27;[keyName]&#x27;</span>:</span><br><span class="line">-----BEGIN RSA PUBLIC KEY-----</span><br><span class="line">MIIBCgKCAQEAv1n2RwSVDyfd7wsWo5g9Q3bG2uTU4eLxFFgX4coUSRYQKjVXH2zp</span><br><span class="line">8QUmaRghF3qTumlWzCY6WJUvYQl6alu1/VrLOUCeQCat74nLxlIWI44GCB7vhGrC</span><br><span class="line">ktqTpaVmFxa4aOAXT7WLGA15wcaW7hS4mdgbwehx4Bqisk+SjZqJ017ASBFMz02m</span><br><span class="line">RNpKjQoJgRQWdDsr/VDNEKbAYl2ghVlTT9yidiCBJlLISkhTvLVmMzd2ULPzoa9F</span><br><span class="line">8rXxpWJ/4j+rKJKpOaGJIKYCLTgZOXHLHZE7vPxBNK8L/nAV4XDI0S+QSwqVFR0A</span><br><span class="line">uhXiHquN1Ae7wiyljqbei3vZylIYAaIkywIDAQAB</span><br><span class="line">-----END RSA PUBLIC KEY-----</span><br></pre></td></tr></table></figure>
+
+<p><sup>Tips: You can try to encrypt something with this public key, send to me, and I can decrypt it. ✉️</sup></p>
+<p>Copy <code>-----BEGIN RSA ...... END RSA PUBLIC KEY-----</code> and save it to a file, then send this file to your friend.</p>
+<p>Your friend should also install RSA CLI, he/she need to download it and import it:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rsa import [yourFriendsKeyName] --public [path-to-the-file]</span><br></pre></td></tr></table></figure>
+
+<p>The next step is to encrypt a message:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rsa encrypt [yourFriendsKeyName] <span class="string">&#x27;[message]&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>Finally, tell your friend to copy the output and send it to you.</p>
+<h2 id="0x02"><a href="#0x02" class="headerlink" title="0x02"></a>0x02</h2><p>After receiving the encrypted message from your friend, you can now decrypt it:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rsa decrypt [keyName] <span class="string">&#x27;[the-encrypted-message-from-your-friend]&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>Done! you got the decrypted message from the output.</p>
+<hr>
+<p>I think privacy should be in your control. You should not trust anyone who can’t proof your privacy is encrypted and private. Trust yourself. RSA CLI is an easy way to encrypt and decrypt on your own, which means you can really know your privacy is encrypted. Without private key, no one can decrypt your messages.</p>
+<p>But why trusting RSA CLI? Because it’s <a target="_blank" rel="noopener" href="https://github.com/MrWillCom/rsa-cli">fully open source</a>.</p>
+
+    </div>
+
+    <div class="about">
+        <h1>About this Post</h1>
+        <p>This post is written by Mr. Will, licensed under <a
+                target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
+    </div>
+
+    
+        
+        <div class="container">
+            <div id="waline"></div>
+            <script>
+                new Waline({
+                    el: "#waline",
+                    
+                    path: location.pathname,
+                    
+                    serverURL: 'https://mrwillcom-blog-comments.vercel.app/',
+                    
+                    lang: 'en',
+                    
+                    placeholder: '',
+                    
+                });
+            </script>
+        </div>
+        
+    
+</article>
+        <footer>
+    <div class="inner">
+        <div class="links">
+            
+            <div class="group">
+                <h4 class="title">Blog</h4>
+                
+                <a href="/" class="item" target="_blank">Blog</a>
+                
+                <a href="/archives" class="item" target="_blank">Archives</a>
+                
+                <a href="/friends" class="item" target="_blank">Friends</a>
+                
+                <a href="/projects" class="item" target="_blank">Projects</a>
+                
+                <a href="/resume" class="item" target="_blank">Resume</a>
+                
+                <a href="/about" class="item" target="_blank">About</a>
+                
+                <a href="/atom.xml" class="item" target="_blank">RSS</a>
+                
+            </div>
+            
+            <div class="group">
+                <h4 class="title">Projects</h4>
+                
+                <a href="https://github.com/MrWillCom/rsa-cli" class="item" target="_blank">RSA CLI</a>
+                
+                <a href="https://github.com/MrWillCom/hexo-theme-cupertino" class="item" target="_blank">Hexo Theme Cupertino</a>
+                
+                <a href="https://github.com/MrWillCom/a-calendar" class="item" target="_blank">A Calendar</a>
+                
+                <a href="https://github.com/MrWillCom/auto-mirroring-bucket" class="item" target="_blank">Auto Mirroring Bucket</a>
+                
+            </div>
+            
+            <div class="group">
+                <h4 class="title">Me</h4>
+                
+                <a href="https://github.com/MrWillCom" class="item" target="_blank">GitHub</a>
+                
+                <a href="https://codepen.io/mrwillcom" class="item" target="_blank">CodePen</a>
+                
+                <a href="https://www.patreon.com/MrWillCom" class="item" target="_blank">Patreon</a>
+                
+                <a href="https://noc.social/@MrWillCom" class="item" target="_blank">Mastodon</a>
+                
+                <a href="mailto:mr.will.com@outlook.com" class="item" target="_blank">Email</a>
+                
+            </div>
+            
+        </div>
+        <span>&copy; 2021 Mr. Will<br >Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></span>
+        
+            <br>
+            <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle">
+                <label>
+                    <input type="radio" value="light">
+                    <span>Light</span>
+                </label>
+                <label>
+                    <input type="radio" value="dark">
+                    <span>Dark</span>
+                </label>
+                <label>
+                    <input type="radio" value="auto">
+                    <span>Auto</span>
+                </label>
+            </div>
+        
+    </div>
+</footer>
+
+        
+<script src="/js/main.js"></script>
+
+         
+        
+<script src="//code.tidio.co/6bkvqlfpdbtihnufei8yxpsvf98bq5gv.js"></script>
+ 
+        
+    </body>
+</html>
