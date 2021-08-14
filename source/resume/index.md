@@ -12,7 +12,7 @@ I'm mainly a frontend developer since 2018. And I'm pretty familiar with HTML, C
 
 Plus, I'm interested in mobile apps, I can also use Flutter.
 
-Not just frontend, I'm also familiar with Node.js and MongoDB.
+Not just frontend, I'm also familiar with Node.js.
 
 I love open source, as you see, I have many open source repositories and some projects. I'v also contributed to many different repositories, improve and enjoy them.
 
