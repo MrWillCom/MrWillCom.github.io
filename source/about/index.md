@@ -28,7 +28,7 @@ At present, I'm working on Node.js.
 
 I'm just loving coding, but nothing else.
 
-I always work on my open source porjects at weekends. So if you submitted an issue or a pull request, I will respond only at weekends, but sometimes on weekdays.
+I always work on my open source projects at weekends. So if you submitted an issue or a pull request, I will respond only at weekends, but sometimes on weekdays.
 
 ## Contact
 

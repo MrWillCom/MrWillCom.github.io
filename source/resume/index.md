@@ -16,7 +16,7 @@ Not just frontend, I'm also familiar with Node.js.
 
 I love open source, as you see, I have many open source repositories and some projects. I'v also contributed to many different repositories, improve and enjoy them.
 
-I'm also a GitHub Arctic Code Vault Contributor in the [2020 GitHub Archive Program](https://archiveprogram.github.com/).
+I'm also a GitHub Arctic Code Vault Contributor in [2020 GitHub Archive Program](https://archiveprogram.github.com/).
 
 ---
 
