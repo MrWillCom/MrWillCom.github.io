@@ -4,32 +4,28 @@ no_date: true
 no_comments: true
 ---
 
-<div id="cmd-no-date" class="theme-command"></div>
+I started to be curious about code in about 2018. And a teacher of mine gave me _C++ Primer Plus_ as a gift. Since then, I started looking for the technologies I like.
 
-I'm a JavaScript developer, working on some JavaScript open source projects, learning some JavaScript coding skills and sharing my JavaScript coding experiences.
+I the summer of 2018, I even created my first blog without any site generators, all by my hands. Without CSS and JavaScript, I put all the stylesheets in attribute `style` and all the buttons are powered by links.
+
+I joined GitHub in 2019 with my websites.
+
+![The screen shot of when I joined GitHub](/img/000000.png)
+
+By trying, learning and practicing JavaScript, CSS and more, a year was past.
+
+In 2020, I became more confident in my skills. I published two packages, [videoplayer.js](https://www.npmjs.com/package/videoplayer.js) and [tooltiplery.js](https://www.npmjs.com/package/tooltiplery.js) to [npm](https://www.npmjs.com/) in spring, 2020. They are no longer supported.
+
+In summer, 2020, I created my new blog with Hexo, which you are currently visiting. Also, I made a brand new theme for my new blog - [Theme Cupertino](https://github.com/MrWillCom/hexo-theme-cupertino). Plus, I started contributing some open source projects.
+
+I published a browser extension called [GitHub Dark Mode](https://github.com/MrWillCom/github-dark-mode) to implementdark mode for GitHub.com.
+
+In autumn 2020, GitHub officially implemented their dark mode, so GitHub Dark Mode was archived. For some enhanced visual features on GitHub.com, I published [GitHub Enhancing](https://github.com/MrWillCom/github-enhancing). It adds acrylic and some animations to GitHub.com, which makes it more interactive.
+
+In summer 2021, [RSA CLI](https://rsa.js.org/) turned stable, and [RSA GUI](https://github.com/MrWillCom/rsa-gui) was in beta test.
 
 ---
-
-## Blog
 
 This blog is based on Hexo, automatically built by [GitHub Actions](https://github.com/MrWillCom/MrWillCom.github.io/blob/master/.github/workflows/blog-builder.yml). You can visit it from [blog.mrwillcom.vercel.app](https://blog.mrwillcom.vercel.app/) (powered by [Vercel](https://vercel.com/)) or [mrwillcom.github.io](https://mrwillcom.github.io/) (powered by GitHub Pages).
 
 This theme is called Cupertino, it's open source and you can get it [here](https://github.com/MrWillCom/hexo-theme-cupertino).
-
-## Me
-
-In 2018, A teacher of mine gave me _C++ Primer Plus_ at that time, I started coding then. I looked for how to start coding online and learned HTML and C++ from it.
-
-I've started working on open source projects since the summer of 2018, and joined GitHub in 2019.
-
-![The screen shot of when I joined GitHub](/img/000000.png)
-
-At present, I'm working on Node.js, React and more.
-
-I'm just loving coding, but nothing else.
-
-I work on my open source projects at weekends as usual. So if you opened an issue or a pull request, I will likely respond at weekends.
-
-## Contact
-
-If you want to contact me, just [email me](mailto:mr.will.com@outlook.com), or chat with me on [Keybase](https://keybase.io/mrwillcom).
