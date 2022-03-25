@@ -47,6 +47,9 @@
 <link rel="stylesheet" href="/css/waline.css">
 
   
+<link rel="stylesheet" href="/css/giscus.css">
+
+  
   
   
 <link rel="stylesheet" href="/css/post.css">
@@ -60,9 +63,7 @@
   
 
   
-    <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
-  
-<meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="Mr. Will" type="application/atom+xml">
+<meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="Mr. Will" type="application/atom+xml">
 </head>
     <body data-color-scheme="auto">
         <nav id="theme-nav">
@@ -148,7 +149,7 @@
 </blockquote>
 <p>Yes, <strong>Really Simple</strong>. You can just add the RSS feed URL to your RSS client. After that, your client will fetch new articles from the RSS feed URLs.</p>
 <p>Actually, RSS is just a file on the Internet. It looks like this:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">feed</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://www.w3.org/2005/Atom&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>...<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">subtitle</span>&gt;</span>...<span class="tag">&lt;/<span class="name">subtitle</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;...&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;self&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;...&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">updated</span>&gt;</span>...<span class="tag">&lt;/<span class="name">updated</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">id</span>&gt;</span>...<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">author</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">name</span>&gt;</span>...<span class="tag">&lt;/<span class="name">name</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">author</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">entry</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>...<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;...&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">id</span>&gt;</span>...<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">published</span>&gt;</span>...<span class="tag">&lt;/<span class="name">published</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">updated</span>&gt;</span>...<span class="tag">&lt;/<span class="name">updated</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">content</span> <span class="attr">type</span>=<span class="string">&quot;html&quot;</span>&gt;</span>&lt;![CDATA[...]]&gt;<span class="tag">&lt;/<span class="name">content</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">summary</span> <span class="attr">type</span>=<span class="string">&quot;html&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">entry</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">feed</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span> encoding=<span class="string">&quot;utf-8&quot;</span>?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">feed</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://www.w3.org/2005/Atom&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>...<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">subtitle</span>&gt;</span>...<span class="tag">&lt;/<span class="name">subtitle</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;...&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;self&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;...&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">updated</span>&gt;</span>...<span class="tag">&lt;/<span class="name">updated</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">id</span>&gt;</span>...<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">author</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">name</span>&gt;</span>...<span class="tag">&lt;/<span class="name">name</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">author</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">entry</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>...<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;...&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">id</span>&gt;</span>...<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">published</span>&gt;</span>...<span class="tag">&lt;/<span class="name">published</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">updated</span>&gt;</span>...<span class="tag">&lt;/<span class="name">updated</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">content</span> <span class="attr">type</span>=<span class="string">&quot;html&quot;</span>&gt;</span>&lt;![CDATA[...]]&gt;<span class="tag">&lt;/<span class="name">content</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">summary</span> <span class="attr">type</span>=<span class="string">&quot;html&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">entry</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">feed</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p><em>To see the source, go to <a href="/atom.xml">the RSS feed of my blog</a>.</em></p>
 <p>And all you need to do is to know its link and add it to your RSS feeds list.</p>
@@ -202,23 +203,8 @@
 
     
         
-        <div class="container">
-            <div id="waline"></div>
-            <script>
-                new Waline({
-                    el: "#waline",
-                    
-                    path: location.pathname,
-                    
-                    serverURL: 'https://mrwillcom-blog-comments.vercel.app/',
-                    
-                    lang: 'en',
-                    
-                    placeholder: '',
-                    
-                });
-            </script>
-        </div>
+        
+        <script src="https://giscus.app/client.js" data-repo="MrWillCom/MrWillCom.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyODg5NTc5MTA=" data-category="Announcements" data-category-id="DIC_kwDOETkl1s4COQZm" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" data-loading="lazy" crossorigin="anonymous" async> </script>
         
     
 </article>
