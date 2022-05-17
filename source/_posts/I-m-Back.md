@@ -3,6 +3,7 @@ title: I'm Back
 date: 2020-08-21
 cover_image: /img/000001.png
 cover_image_alt: A screen shot of theme Cupertino
+categories: Announcement
 ---
 
 **_Welcome to my new blog!_**

@@ -3,6 +3,7 @@ title: 'From Now on, I Can''t Respond on Weekdays'
 date: 2020-09-01
 cover_image: /img/000014.png
 cover_image_alt: The image title
+categories: Announcement
 ---
 
 If you contact me, I can't respond just on weekdays.

@@ -3,6 +3,7 @@ title: GitHub's Own Dark Mode!
 date: 2020-12-11
 cover_image: /img/000016.png
 cover_image_alt: GitHub's own Dark Mode
+categories: Announcement
 ---
 
 I found that GitHub has published its own dark mode and that's pretty cool.

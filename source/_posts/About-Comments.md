@@ -3,6 +3,7 @@ title: About Comments
 date: 2021-07-16
 cover_image: /img/000022.png
 cover_image_alt: About Comments
+categories: Announcement
 ---
 
 I haven't updated my blog for a long time. Recently, I found some unkind comments here, but they are not allowed. So, I removed them then. I think I have to make some changes.

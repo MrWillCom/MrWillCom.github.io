@@ -3,6 +3,7 @@ title: Do you use RSS?
 date: 2020-08-28
 cover_image: /img/000006.png
 cover_image_alt: The screenshots of Fluent Reader
+categories: Small Talk
 ---
 
 I read things by RSS.
