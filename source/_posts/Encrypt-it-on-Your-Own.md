@@ -63,8 +63,6 @@ uhXiHquN1Ae7wiyljqbei3vZylIYAaIkywIDAQAB
 -----END RSA PUBLIC KEY-----
 ```
 
-<sup>Tips: You can try to encrypt something with this public key, send to me, and I can decrypt it. ✉️</sup>
-
 Copy `-----BEGIN RSA ...... END RSA PUBLIC KEY-----` and save it to a file, then send this file to your friend.
 
 Your friend should also install RSA CLI, he/she need to download it and import it:
