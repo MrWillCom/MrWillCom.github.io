@@ -48,7 +48,7 @@ no_comments: true
         </div>
         <div class="actions">
             <div class="right">
-                <a class="action-button-primary" href="https://aeilot.vercel.app/">Visit</a>
+                <a class="action-button-primary" href="https://aeilot.top/">Visit</a>
             </div>
         </div>
     </div>
