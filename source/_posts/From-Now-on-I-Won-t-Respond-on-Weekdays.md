@@ -4,6 +4,8 @@ date: 2020-09-01
 cover_image: /img/000014.png
 cover_image_alt: The image title
 categories: Announcement
+tags:
+  - bullshit
 ---
 
 If you contact me, I can't respond just on weekdays.

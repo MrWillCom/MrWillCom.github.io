@@ -4,6 +4,9 @@ date: 2020-08-28
 cover_image: /img/000006.png
 cover_image_alt: The screenshots of Fluent Reader
 categories: Small Talk
+tags:
+  - rss
+  - reader
 ---
 
 I read things by RSS.

@@ -4,6 +4,11 @@ date: 2020-08-31
 cover_image: /img/000013.png
 cover_image_alt: A screenshot of Apple Newsroom's new UI
 categories: Small Talk
+tags:
+  - apple-newsroom
+  - design
+  - theme
+  - blog
 ---
 
 Apple updated Apple Newsroom's UI.

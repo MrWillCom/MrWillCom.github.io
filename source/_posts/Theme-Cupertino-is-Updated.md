@@ -4,6 +4,9 @@ date: 2020-09-13
 cover_image: /img/000015.png
 cover_image_alt: A screen shot of theme Cupertino
 categories: Announcement
+tags:
+  - theme
+  - blog
 ---
 
 ![A screen shot of theme Cupertino](/img/000015.png)

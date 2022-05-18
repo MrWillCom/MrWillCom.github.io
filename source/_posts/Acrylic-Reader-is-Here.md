@@ -4,6 +4,9 @@ date: 2020-08-30
 cover_image: /img/000012.png
 cover_image_alt: The logo of Acrylic Reader
 categories: Announcement
+tags:
+  - reader
+  - rss
 ---
 
 [Acrylic Reader](https://github.com/MrWillCom/acrylic-reader) project is launched.

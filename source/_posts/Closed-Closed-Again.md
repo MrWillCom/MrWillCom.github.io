@@ -4,6 +4,10 @@ date: 2020-08-29
 cover_image: /img/000009.png
 cover_image_alt: The number of the pull request
 categories: Small Talk
+tags:
+  - pull-request
+  - rss
+  - reader
 ---
 
 [yang991178/fluent-reader #86](https://github.com/yang991178/fluent-reader/pull/86) and [yang991178/fluent-reader #88](https://github.com/yang991178/fluent-reader/pull/88) are closed by [yang991178](https://github.com/yang991178).
