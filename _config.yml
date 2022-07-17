@@ -114,6 +114,10 @@ feed:
 deploy:
   type: ''
 
+search:
+  path: search.json
+  content: false
+
 # Others
 
 ## Tidio
