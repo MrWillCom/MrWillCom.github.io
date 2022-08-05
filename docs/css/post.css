@@ -45,6 +45,8 @@ body {
 .meta .categories,
 .meta .date,
 .content figure,
+/* only `.content>pre`, do not include <pre /> in <figure /> */
+.content>pre,
 .divider,
 .container,
 hr,
@@ -69,7 +71,70 @@ hr,
   border-radius: 10px;
 }
 
-.content .highlight {
+.content table,
+.content video {
+  display: block;
+}
+
+.content table {
+  padding: 0;
+  border-collapse: collapse;
+  border-radius: 15px;
+  max-width: 800px;
+  overflow-x: auto;
+}
+
+.content table tr {
+  background-color: var(--card-bg);
+}
+
+.content table tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.content table th,
+.content table td {
+  margin: 0;
+  padding: 6px 12px;
+}
+
+.content table th {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.content table thead tr th:first-child {
+  border-top-left-radius: 15px;
+}
+
+.content table thead tr th:last-child {
+  border-top-right-radius: 15px;
+}
+
+.content table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+.content table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .content table,
+  .content table thead tr th:first-child,
+  .content table thead tr th:last-child,
+  .content table tbody tr:last-child td:first-child,
+  .content table tbody tr:last-child td:last-child {
+    border-radius: 0;
+  }
+}
+
+.content video {
+  max-width: 100%;
+  padding: 0;
+}
+
+.content .highlight,
+.content > pre {
   overflow-x: auto;
   overflow-y: hidden;
   background-color: var(--card-bg);
@@ -78,23 +143,27 @@ hr,
 }
 
 @media screen and (max-width: 800px) {
-  .content .highlight {
+  .content .highlight,
+  .content > pre {
     border-radius: 0;
   }
+}
+
+.content .highlight * {
+  border: none;
 }
 
 .content .highlight .gutter {
   padding-right: 16px;
 }
 
-.content table,
-.content video {
-  display: block;
+.content > pre {
+  max-width: calc(800px - 24px * 2);
+  padding: 20px 24px;
 }
 
-.content video {
-  max-width: 100%;
-  padding: 0;
+.content > pre > code {
+  background-color: transparent;
 }
 
 .content ul,
