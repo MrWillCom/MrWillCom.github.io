@@ -19,16 +19,14 @@ jobs:
           node-version: '12'
       - name: Clone Submodule
         run: git submodule init && git submodule update
-      - name: Install Hexo
-        run: npm install -g hexo
       - name: Install Dependencies
         run: npm install
       - name: Clean Previous Build
         run: rm -rf docs
       - name: Hexo Clean
-        run: hexo clean
+        run: npm run clean
       - name: Generate New Build
-        run: hexo generate
+        run: npm run build
       - name: Move docs/ to public/
         run: mv public docs
       - name: Publish
