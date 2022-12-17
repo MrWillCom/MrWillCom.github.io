@@ -5,7 +5,7 @@ cover_image: /img/000014.png
 cover_image_alt: The image title
 categories: Announcement
 tags:
-  - bullshit
+  - misc
 ---
 
 If you contact me, I can't respond just on weekdays.

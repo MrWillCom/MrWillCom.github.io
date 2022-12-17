@@ -3,7 +3,7 @@ title: Closed. Closed Again.
 date: 2020-08-29
 cover_image: /img/000009.png
 cover_image_alt: The number of the pull request
-categories: Small Talk
+categories: Essay
 tags:
   - pull-request
   - rss
