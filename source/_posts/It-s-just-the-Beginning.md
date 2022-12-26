@@ -70,9 +70,9 @@ macOS 的开发体验确实比 Windows 好不少。Command Line Tools for Xcode 
 
 ## 淘汰赛
 
-一旦放开，就一定会有大批感染。这也的确发生了。放开大概一周之后，我们一个年级，总共才 12 个班，转为线上的有 3 个，之后的一天变为 5 个。据说高二也淘汰了一半。
+一旦放开，就一定会有大批感染。这也的确发生了。放开大概一周之后，我们一个年级，总共才 12 个班，转为线上的有 3 个，之后的一天增加到 5 个。据说高二也淘汰了一半。
 
-随后的一天早晨，看起来一切安好。然而正准备出门，却来了紧急通知网课。（有些同学甚至已经到了校门口）第二天，高二也网课了。
+随后的一天早晨，看起来一切安好。然而正准备出门，却来了网课的紧急通知。（有些同学甚至已经到了校门口）第二天，高二也网课了。
 
 > ***中小学校自 12 月 19 日起，除初三、高三年级外，全部调整为线上教学。***
 >
@@ -86,10 +86,18 @@ macOS 的开发体验确实比 Windows 好不少。Command Line Tools for Xcode 
 
 这不过是个开场......
 
+---
+
+<small class="text-grey">“这不过是个开场”是今年上海中考的语文考试作文题。</small>
+
 <style>
 @import url('https://unpkg.com/lxgw-wenkai-webfont/lxgwwenkai-regular.css');
 
 .post {
   font-family: 'LXGW WenKai', sans-serif;
+}
+
+.content .text-grey {
+  color: var(--grey);
 }
 </style>
