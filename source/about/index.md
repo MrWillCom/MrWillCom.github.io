@@ -4,6 +4,8 @@ no_date: true
 no_comments: true
 ---
 
+## About Me
+
 I started to be curious about code in about 2018. And a teacher of mine gave me _C++ Primer Plus_ as a gift. Since then, I started looking for the technologies I like.
 
 I the summer of 2018, I even created my first blog without any site generators, all by my hands. Without CSS and JavaScript, I put all the stylesheets in attribute `style` and all the buttons are powered by links.
@@ -24,8 +26,12 @@ In autumn 2020, GitHub officially implemented their dark mode, so GitHub Dark Mo
 
 In summer 2021, [RSA CLI](https://rsa.js.org/) turned stable, and [RSA GUI](https://github.com/MrWillCom/rsa-gui) was in beta test.
 
----
+The summer of 2022, I bought the domain `mrwillcom.com`, so from then on, all my websites are migrated to it.
 
-This blog is based on Hexo, automatically built by [GitHub Actions](https://github.com/MrWillCom/MrWillCom.github.io/blob/master/.github/workflows/blog-builder.yml). You can visit it from [blog.mrwillcom.vercel.app](https://blog.mrwillcom.vercel.app/) (powered by [Vercel](https://vercel.com/)) or [mrwillcom.github.io](https://mrwillcom.github.io/) (powered by GitHub Pages).
+## About This Blog
+
+This blog is based on Hexo, automatically built by [GitHub Actions](https://github.com/MrWillCom/MrWillCom.github.io/blob/master/.github/workflows/blog-builder.yml). You can visit it from [blog.mrwillcom.com](https://blog.mrwillcom.com/) (powered by [Vercel](https://vercel.com/)) or [mrwillcom.github.io](https://mrwillcom.github.io/) (powered by GitHub Pages).
+
+This blog also has a mirror on xLog, [xlog.mrwillcom.com](https://xlog.mrwillcom.com/), part of my posts are mirrored there.
 
 This theme is called Cupertino, it's open source and you can get it [here](https://github.com/MrWillCom/hexo-theme-cupertino).
