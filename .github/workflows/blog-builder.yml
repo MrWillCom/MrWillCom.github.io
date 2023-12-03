@@ -19,6 +19,8 @@ jobs:
           node-version: '12'
       - name: Clone Submodule
         run: git submodule init && git submodule update
+      - name: Install pnpm
+        run: npm i pnpm -g
       - name: Install Dependencies
         run: pnpm install
       - name: Clean Previous Build
