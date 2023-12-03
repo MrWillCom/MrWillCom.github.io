@@ -20,13 +20,13 @@ jobs:
       - name: Clone Submodule
         run: git submodule init && git submodule update
       - name: Install Dependencies
-        run: npm install
+        run: pnpm install
       - name: Clean Previous Build
         run: rm -rf docs
       - name: Hexo Clean
-        run: npm run clean
+        run: pnpm run clean
       - name: Generate New Build
-        run: npm run build
+        run: pnpm run build
       - name: Move docs/ to public/
         run: mv public docs
       - name: Publish
