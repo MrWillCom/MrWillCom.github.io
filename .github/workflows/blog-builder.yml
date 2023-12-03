@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 1
       - uses: actions/setup-node@v4
         with:
-          node-version: 'lts'
+          node-version: '20'
       - name: Clone Submodule
         run: git submodule init && git submodule update
       - name: Install pnpm
