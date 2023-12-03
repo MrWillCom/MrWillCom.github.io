@@ -11,12 +11,12 @@ jobs:
     name: "Hexo Blog Build"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 1
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v4
         with:
-          node-version: '12'
+          node-version: 'lts'
       - name: Clone Submodule
         run: git submodule init && git submodule update
       - name: Install pnpm
