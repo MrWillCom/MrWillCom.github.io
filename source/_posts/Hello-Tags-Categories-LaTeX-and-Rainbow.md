@@ -17,7 +17,7 @@ Introducing tags & categories features, $LaTeX$ and 🌈 rainbow banner. Update 
 
 Tags and categories are now implemented in Theme Cupertino. No further configuration required, just add `tags` and `categories` properties to your posts' front-matter.
 
-## $LaTeX$
+## $\LaTeX$
 
 Really good news, LaTeX is now supported in Theme Cupertino:
 
