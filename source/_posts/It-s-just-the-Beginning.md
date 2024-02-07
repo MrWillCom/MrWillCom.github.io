@@ -6,6 +6,7 @@ categories: Essay
 tags:
   - life
   - school
+  - annual-review
 ---
 
 2022，是从一模开始的。但是关于一模，并没有什么好说的。还是从寒假讲起吧。
