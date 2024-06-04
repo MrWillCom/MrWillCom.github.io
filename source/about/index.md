@@ -18,15 +18,17 @@ By trying, learning and practicing JavaScript, CSS and more, a year was past.
 
 In 2020, I became more confident in my skills. I published two packages, [videoplayer.js](https://www.npmjs.com/package/videoplayer.js) and [tooltiplery.js](https://www.npmjs.com/package/tooltiplery.js) to [npm](https://www.npmjs.com/) in spring, 2020. They are no longer supported.
 
-In summer, 2020, I created my new blog with Hexo, which you are currently visiting. Also, I made a brand new theme for my new blog - [Theme Cupertino](https://github.com/MrWillCom/hexo-theme-cupertino). Plus, I started contributing some open source projects.
+In summer, 2020, I created my new blog with Hexo, that's the one you are now looking at. Also, I made a brand new theme for my new blog - [Theme Cupertino](https://github.com/MrWillCom/hexo-theme-cupertino). Plus, I started contributing to some open source projects.
 
-I published a browser extension called [GitHub Dark Mode](https://github.com/MrWillCom/github-dark-mode) to implementdark mode for GitHub.com.
+I published a browser extension called [GitHub Dark Mode](https://github.com/MrWillCom/github-dark-mode) to implement the missing dark mode for GitHub.com.
 
-In autumn 2020, GitHub officially implemented their dark mode, so GitHub Dark Mode was archived. For some enhanced visual features on GitHub.com, I published [GitHub Enhancing](https://github.com/MrWillCom/github-enhancing). It adds acrylic and some animations to GitHub.com, which makes it more interactive.
+In autumn 2020, since GitHub officially implemented their dark mode, GitHub Dark Mode got archived. For some enhanced visual features on GitHub.com, I published [GitHub Enhancing](https://github.com/MrWillCom/github-enhancing). It adds acrylic and some animations to GitHub.com, which makes it more interactive.
 
 In summer 2021, [RSA CLI](https://rsa.js.org/) turned stable, and [RSA GUI](https://github.com/MrWillCom/rsa-gui) was in beta test.
 
-The summer of 2022, I bought the domain `mrwillcom.com`, so from then on, all my websites are migrated to it.
+The summer of 2022, I bought the domain `mrwillcom.com`, all my websites had been migrated to it.
+
+My [gallery](https://gallery.mrwillcom.com/) is born in April, 2023.
 
 ## About This Blog
 
