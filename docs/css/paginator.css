@@ -1,0 +1,41 @@
+.paginator {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+}
+.paginator > a, .paginator > span {
+  height: 32px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 12px;
+  user-select: none;
+  color: var(--black-2);
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
+}
+.paginator > a:hover, .paginator > a:focus-visible, .paginator > span:hover, .paginator > span:focus-visible {
+  background-color: var(--card-bg);
+  color: var(--black);
+  text-decoration: none;
+}
+.paginator > a:active, .paginator > span:active {
+  color: var(--black-4);
+}
+.paginator > a.prev, .paginator > span.prev {
+  padding-left: 14px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+.paginator > a.next, .paginator > span.next {
+  padding-right: 14px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.paginator > a.current, .paginator > span.current {
+  color: var(--black-4);
+}
+.paginator > a.current:hover, .paginator > span.current:hover {
+  background-color: transparent;
+}
