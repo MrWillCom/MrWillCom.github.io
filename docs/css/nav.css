@@ -49,7 +49,7 @@ nav .inner .nav-items .nav-item {
   align-items: center;
   font-size: 16px;
   padding: 0 16px;
-  transition: color 0.5s;
+  transition: color 0.35s;
 }
 nav .inner .nav-items .nav-item:hover, nav .inner .nav-items .nav-item:focus {
   color: var(--black-2);
