@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       hexo:
-        specifier: ^7.2.0
-        version: 7.2.0(chokidar@3.6.0)
+        specifier: ^7.3.0
+        version: 7.3.0(chokidar@3.6.0)
       hexo-filter-mathjax:
         specifier: ^0.9.0
         version: 0.9.0
@@ -24,8 +24,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(chokidar@3.6.0)
       hexo-generator-index:
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^4.0.0
+        version: 4.0.0
       hexo-generator-search:
         specifier: ^2.4.3
         version: 2.4.3(chokidar@3.6.0)
@@ -412,9 +412,9 @@ packages:
     resolution: {integrity: sha512-Jo35VSRSNeMitS2JmjCq3OHAXXYU4+JIODujHtubdG/NRj2++b3Tgyz9pwTmROx6Yxr2php/hC8og5AGZHh8UQ==}
     engines: {node: '>=10.13.0'}
 
-  hexo-generator-index@3.0.0:
-    resolution: {integrity: sha512-83AuNN4cWdLVi//3ugR8E3kR6rrOwhXZt+hOCm1IjtIGj353/GlrtpMHpqZHU5kqipzj4miy9dweVdukXglVWw==}
-    engines: {node: '>=14'}
+  hexo-generator-index@4.0.0:
+    resolution: {integrity: sha512-KeM7mOCKWINGFAk1E+CkjMMgqFIv8oaRbGxR7ipkQAp44o4aopkVftma4sdIplOq9WQEWfVYDUK5gEv9J3nzUg==}
+    engines: {node: '>=18'}
 
   hexo-generator-search@2.4.3:
     resolution: {integrity: sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ==}
@@ -460,8 +460,8 @@ packages:
     resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
     engines: {node: '>=14'}
 
-  hexo@7.2.0:
-    resolution: {integrity: sha512-RYIzl7jfG0i2jH/k5IZg4C1anyHfmKHNUsBKIn9LU0V3iQ0WQrwuOLFDJwaZDenqmzHYJhAVCGAkrBDfF/IlVg==}
+  hexo@7.3.0:
+    resolution: {integrity: sha512-dOe8mzBKrvjubW5oBmyhcnQDpC+M2xmAMLae5K+o+SkHxyvAhShkS2VQZoTsOLIJKY6xilv7dzCjCvE7ol/NHQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1320,7 +1320,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  hexo-generator-index@3.0.0:
+  hexo-generator-index@4.0.0:
     dependencies:
       hexo-pagination: 3.0.0
 
@@ -1402,7 +1402,7 @@ snapshots:
       prismjs: 1.29.0
       strip-indent: 3.0.0
 
-  hexo@7.2.0(chokidar@3.6.0):
+  hexo@7.3.0(chokidar@3.6.0):
     dependencies:
       abbrev: 2.0.0
       archy: 1.0.0
