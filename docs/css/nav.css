@@ -126,6 +126,9 @@ nav .inner .nav-items .nav-item-home {
   nav .inner .nav-items .nav-item-home {
     display: flex;
   }
+  nav.open {
+    height: var(--open-height);
+  }
   nav.open .title {
     transform: translate(0, 8px);
     opacity: 0;
