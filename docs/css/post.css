@@ -17,6 +17,7 @@ body {
   text-decoration: none;
 }
 .meta .date {
+  display: block;
   color: var(--grey);
   font-weight: 600;
 }
