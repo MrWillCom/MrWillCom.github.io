@@ -20,8 +20,8 @@ a:hover {
 
 #skip-to-content {
   left: 50%;
-  position: absolute;
-  transform: translateX(-50%) translateY(calc(-100% - 56px));
+  position: fixed;
+  top: 0;
   z-index: 1100;
   background-color: var(--nav-bg);
   color: var(--link);
@@ -29,14 +29,18 @@ a:hover {
   backdrop-filter: var(--blur);
   padding: 10px 20px;
   border-radius: 100px;
-  transition-property: transform, box-shadow;
+  transform: translateX(-50%) translateY(-100%) scale(0.9);
+  opacity: 0;
+  transition-property: transform, box-shadow, opacity;
   transition-duration: 0.2s;
+  transition-timing-function: ease-out;
 }
 #skip-to-content:focus {
-  transform: translateX(-50%) translateY(calc(-100% + 12px));
-  outline: none;
   text-decoration: underline;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1333333333);
+  transform: translateX(-50%) translateY(calc(-50% + 48px));
+  outline: none;
+  opacity: 1;
 }
 
 .container {
