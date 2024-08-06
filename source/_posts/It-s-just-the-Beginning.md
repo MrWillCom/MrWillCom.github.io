@@ -89,7 +89,7 @@ macOS 的开发体验确实比 Windows 好不少。Command Line Tools for Xcode 
 
 ---
 
-<small class="text-grey">“这不过是个开场”是今年上海中考的语文考试作文题。</small>
+<small class="text-gray">“这不过是个开场”是今年上海中考的语文考试作文题。</small>
 
 <style>
 @import url('https://unpkg.com/lxgw-wenkai-webfont/lxgwwenkai-regular.css');
@@ -98,7 +98,7 @@ macOS 的开发体验确实比 Windows 好不少。Command Line Tools for Xcode 
   font-family: 'LXGW WenKai', sans-serif;
 }
 
-.content .text-grey {
-  color: var(--grey);
+.content .text-gray {
+  color: var(--color-text-tertiary);
 }
 </style>
