@@ -1,13 +1,12 @@
 nav {
-  background-color: var(--nav-bg);
-  border-bottom: 1px solid var(--border-color);
+  background-color: var(--color-background-secondary-translucent);
   user-select: none;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  backdrop-filter: var(--blur);
+  backdrop-filter: var(--filter-blur);
   transition: height 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 nav .inner {
@@ -17,14 +16,9 @@ nav .inner {
   display: flex;
   justify-content: space-between;
 }
-nav .inner a,
-nav .inner a:hover,
-nav .inner a:focus,
-nav .inner a:active,
-nav .inner a:link,
-nav .inner a:visited {
+nav .inner a {
   text-decoration: none;
-  color: var(--black-4);
+  color: var(--color-text-secondary);
 }
 nav .inner .title {
   display: flex;
@@ -34,7 +28,7 @@ nav .inner .title {
   margin: 0;
   font-size: 20px;
   font-weight: 500;
-  color: var(--black-2) !important;
+  color: var(--color-text-primary);
 }
 nav .inner .nav-arrow {
   display: none;
@@ -50,8 +44,8 @@ nav .inner .nav-items .nav-item {
   padding: 0 16px;
   transition: color 0.35s;
 }
-nav .inner .nav-items .nav-item:hover, nav .inner .nav-items .nav-item:focus {
-  color: var(--black-2);
+nav .inner .nav-items .nav-item:hover, nav .inner .nav-items .nav-item:focus-visible {
+  color: var(--color-text-secondary-hover);
 }
 @media (max-width: 600px) {
   nav .inner .nav-items .nav-item {
@@ -85,7 +79,7 @@ nav .inner .nav-items .nav-item-home {
   }
   nav .inner .nav-arrow::before, nav .inner .nav-arrow::after {
     content: "";
-    background-color: var(--nav-arrow);
+    background-color: var(--color-text-secondary);
     display: block;
     position: absolute;
     top: 28px;

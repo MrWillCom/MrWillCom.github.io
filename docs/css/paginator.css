@@ -11,17 +11,18 @@
   align-items: center;
   padding: 0 12px;
   user-select: none;
-  color: var(--black-2);
+  color: var(--color-text-primary);
   transition-property: background-color, color;
   transition-duration: 0.2s;
 }
 .paginator > a:hover, .paginator > a:focus-visible, .paginator > span:hover, .paginator > span:focus-visible {
-  background-color: var(--card-bg);
-  color: var(--black);
+  background-color: var(--color-background-primary-hover);
+  color: var(--color-text-primary-hover);
   text-decoration: none;
 }
 .paginator > a:active, .paginator > span:active {
-  color: var(--black-4);
+  background-color: var(--color-background-primary-active);
+  color: var(--color-text-primary-active);
 }
 .paginator > a.prev, .paginator > span.prev {
   padding-left: 14px;
@@ -34,7 +35,7 @@
   border-bottom-right-radius: 16px;
 }
 .paginator > a.current, .paginator > span.current {
-  color: var(--black-4);
+  color: var(--color-text-secondary);
 }
 .paginator > a.current:hover, .paginator > span.current:hover {
   background-color: transparent;

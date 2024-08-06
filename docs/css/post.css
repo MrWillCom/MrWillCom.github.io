@@ -1,13 +1,9 @@
-body {
-  background-color: var(--body-bg);
-}
-
 .post {
   margin: 128px 0;
 }
 
 .meta .categories {
-  color: var(--link);
+  color: var(--color-text-accent);
   margin-bottom: 6px;
   font-weight: 600;
 }
@@ -18,7 +14,7 @@ body {
 }
 .meta .date {
   display: block;
-  color: var(--grey);
+  color: var(--color-text-secondary);
   font-weight: 600;
 }
 .meta .title {
@@ -82,7 +78,7 @@ hr,
   overflow-x: auto;
 }
 .content table tr {
-  background-color: var(--card-bg);
+  background-color: var(--color-background-secondary);
 }
 .content table tr:nth-child(even) {
   background-color: transparent;
@@ -93,7 +89,7 @@ hr,
   padding: 6px 12px;
 }
 .content table th {
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--color-border-primary);
 }
 
 .content table thead tr th:first-child {
@@ -129,7 +125,7 @@ hr,
 .content > pre {
   overflow-x: auto;
   overflow-y: hidden;
-  background-color: var(--card-bg);
+  background-color: var(--color-background-secondary);
   border-radius: 15px;
   max-width: 768px;
 }
@@ -172,7 +168,7 @@ hr,
 .content figure figcaption {
   text-align: center;
   font-size: 16px;
-  color: var(--grey);
+  color: var(--color-text-secondary);
 }
 
 /* for [hexo-math](https://github.com/hexojs/hexo-math): */
@@ -202,7 +198,7 @@ hr,
 
 .about {
   border-radius: 7px;
-  background-color: var(--card-bg);
+  background-color: var(--color-background-secondary);
   max-width: 768px;
   padding: 16px;
   margin: 64px auto;
@@ -229,11 +225,12 @@ hr,
 .content h5 > .headerlink,
 .content h6 > .headerlink {
   opacity: 0;
-  color: var(--grey);
+  color: var(--color-text-tertiary);
   font-weight: normal;
   position: absolute;
   padding-right: 6px;
   transform: translateX(-100%);
+  text-decoration: none;
   transition: opacity 0.2s;
 }
 .content h1 > .headerlink::before,
@@ -245,13 +242,24 @@ hr,
   content: "#";
 }
 .content h1:hover > .headerlink,
+.content h1 .headerlink:hover,
+.content h1 .headerlink:focus-visible,
 .content h2:hover > .headerlink,
+.content h2 .headerlink:hover,
+.content h2 .headerlink:focus-visible,
 .content h3:hover > .headerlink,
+.content h3 .headerlink:hover,
+.content h3 .headerlink:focus-visible,
 .content h4:hover > .headerlink,
+.content h4 .headerlink:hover,
+.content h4 .headerlink:focus-visible,
 .content h5:hover > .headerlink,
-.content h6:hover > .headerlink {
+.content h5 .headerlink:hover,
+.content h5 .headerlink:focus-visible,
+.content h6:hover > .headerlink,
+.content h6 .headerlink:hover,
+.content h6 .headerlink:focus-visible {
   opacity: 1;
-  text-decoration: none;
 }
 .content > h1 {
   font-size: 36px;
@@ -279,13 +287,13 @@ hr,
 }
 .post-prev-next > a {
   width: 50%;
-  color: var(--black-4);
+  color: var(--color-text-secondary);
   text-decoration: none;
   display: flex;
   transition: color 0.2s;
 }
-.post-prev-next > a:hover {
-  color: var(--black-2);
+.post-prev-next > a:hover, .post-prev-next > a:focus-visible {
+  color: var(--color-text-secondary-hover);
 }
 .post-prev-next .text {
   display: flex;
@@ -300,7 +308,7 @@ hr,
 .post-prev-next .prev .text .label,
 .post-prev-next .next .text .label {
   margin-bottom: 4px;
-  color: var(--grey);
+  color: var(--color-text-secondary);
 }
 .post-prev-next .prev {
   justify-content: flex-end;

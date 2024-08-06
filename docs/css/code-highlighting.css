@@ -1,6 +1,6 @@
 /* This Code Highlighting Theme is based on GitHub Theme */
 .gutter {
-  color: var(--grey);
+  color: var(--color-text-tertiary);
   user-select: none;
 }
 

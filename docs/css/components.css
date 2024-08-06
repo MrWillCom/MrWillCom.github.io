@@ -24,7 +24,7 @@
 .card {
   overflow: hidden;
   border-radius: 16px;
-  background-color: var(--card-bg);
+  background-color: var(--color-background-secondary);
   margin-bottom: 21px;
 }
 .card:nth-child(3n-2) {
@@ -76,13 +76,13 @@
 .card .title {
   font-weight: bold;
   font-size: 24px;
-  color: var(--black);
+  color: var(--color-text-primary);
   text-decoration: none;
   padding: 0;
 }
 .card .description {
   font-size: 17px;
-  color: var(--black-1);
+  color: var(--color-text-secondary);
   padding: 0;
 }
 .card .actions {
@@ -98,15 +98,15 @@
   justify-content: flex-end;
 }
 .card .actions .action-button-primary {
-  background-color: var(--blue);
-  color: var(--white-txt-on-blue-bg);
+  background-color: var(--color-background-accent);
+  color: var(--color-background-accent-contrast);
   padding: 6px 12px;
   border-radius: 32px;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 0.2s;
 }
-.card .actions .action-button-primary:hover {
-  background-color: var(--link);
+.card .actions .action-button-primary:hover, .card .actions .action-button-primary:focus-visible {
+  background-color: var(--color-background-accent-hover);
 }
 
 .block-large {
@@ -115,7 +115,7 @@
 }
 
 .badge {
-  --color: var(--link);
+  --color: var(--color-text-accent);
   font-size: 16px;
   border: 2px solid var(--color);
   color: var(--color);
