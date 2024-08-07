@@ -6,7 +6,7 @@
 }
 .paginator > a, .paginator > span {
   height: 32px;
-  border-radius: 6px;
+  border-radius: var(--radius-small);
   display: inline-flex;
   align-items: center;
   padding: 0 12px;
@@ -26,13 +26,13 @@
 }
 .paginator > a.prev, .paginator > span.prev {
   padding-left: 14px;
-  border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
+  border-top-left-radius: var(--radius-full);
+  border-bottom-left-radius: var(--radius-full);
 }
 .paginator > a.next, .paginator > span.next {
   padding-right: 14px;
-  border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px;
+  border-top-right-radius: var(--radius-full);
+  border-bottom-right-radius: var(--radius-full);
 }
 .paginator > a.current, .paginator > span.current {
   color: var(--color-text-secondary);

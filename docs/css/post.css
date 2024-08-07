@@ -62,7 +62,13 @@ hr,
 .content p img,
 .content .block-large img,
 .content figure img {
-  border-radius: 10px;
+  border-radius: var(--radius-medium);
+}
+
+@media (max-width: 1000px) {
+  .content .block-large img {
+    border-radius: 0;
+  }
 }
 
 .content table,
@@ -73,7 +79,7 @@ hr,
 .content table {
   padding: 0;
   border-collapse: collapse;
-  border-radius: 15px;
+  border-radius: var(--radius-medium);
   max-width: 800px;
   overflow-x: auto;
 }
@@ -93,17 +99,17 @@ hr,
 }
 
 .content table thead tr th:first-child {
-  border-top-left-radius: 15px;
+  border-top-left-radius: var(--radius-medium);
 }
 .content table thead tr th:last-child {
-  border-top-right-radius: 15px;
+  border-top-right-radius: var(--radius-medium);
 }
 
 .content table tbody tr:last-child td:first-child {
-  border-bottom-left-radius: 15px;
+  border-bottom-left-radius: var(--radius-medium);
 }
 .content table tbody tr:last-child td:last-child {
-  border-bottom-right-radius: 15px;
+  border-bottom-right-radius: var(--radius-medium);
 }
 
 @media (max-width: 800px) {
@@ -126,7 +132,7 @@ hr,
   overflow-x: auto;
   overflow-y: hidden;
   background-color: var(--color-background-secondary);
-  border-radius: 15px;
+  border-radius: var(--radius-medium);
   max-width: 768px;
 }
 @media (max-width: 800px) {
@@ -197,7 +203,7 @@ hr,
 }
 
 .about {
-  border-radius: 7px;
+  border-radius: var(--radius-medium);
   background-color: var(--color-background-secondary);
   max-width: 768px;
   padding: 16px;
