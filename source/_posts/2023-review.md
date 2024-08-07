@@ -88,8 +88,8 @@ categories: Essay
   font-size: 17px;
 }
 
-.content p img, .content .block-large img {
-  border-radius: 6px;
+.content p img, .content .block-large img, .content figure img {
+  border-radius: var(--radius-small);
 }
 
 .italic-heading {
