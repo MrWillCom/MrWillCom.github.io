@@ -6,11 +6,13 @@
 }
 .hero.exit-while-scroll {
   will-change: filter, margin-top, margin-bottom, opacity, scale;
-  animation: hero-exit linear both;
+  animation-name: hero-exit;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
   animation-timeline: scroll();
   animation-range: 0 50svh;
 }
-@keyframes hero-exit {
+@keyframes hero-exit-with-blur {
   from {
     margin-top: 56px;
   }
@@ -21,6 +23,20 @@
     scale: 0.9;
     filter: var(--filter-blur);
   }
+}
+@keyframes hero-exit {
+  from {
+    margin-top: 56px;
+  }
+  to {
+    opacity: 0;
+    margin-top: calc(50svh + 56px);
+    margin-bottom: -50svh;
+    scale: 0.9;
+  }
+}
+.hero.exit-while-scroll.with-blur {
+  animation-name: hero-exit-with-blur;
 }
 .hero .sub {
   text-transform: uppercase;
