@@ -1,7 +1,9 @@
 footer {
   background-color: var(--color-background-underlying);
   border-top: 1px solid var(--color-border-primary);
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 footer > .inner {
   max-width: 980px;
@@ -49,6 +51,7 @@ footer .color-scheme-toggle {
   border-radius: var(--radius-full);
   border: 1px solid var(--color-background-accent);
   margin-top: 16px;
+  width: -moz-max-content;
   width: max-content;
 }
 footer .color-scheme-toggle label {

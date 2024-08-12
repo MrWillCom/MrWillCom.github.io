@@ -13,6 +13,9 @@
 #searchbox:hover, #searchbox:focus-visible {
   background-color: var(--color-background-secondary-hover);
 }
+#searchbox::-moz-placeholder {
+  color: var(--color-text-tertiary);
+}
 #searchbox::placeholder {
   color: var(--color-text-tertiary);
 }

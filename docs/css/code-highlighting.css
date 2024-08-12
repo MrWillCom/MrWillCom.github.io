@@ -1,7 +1,9 @@
 /* This Code Highlighting Theme is based on GitHub Theme */
 .gutter {
   color: var(--color-text-tertiary);
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 body[data-color-scheme=auto] .highlight .name,

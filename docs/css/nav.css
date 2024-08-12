@@ -1,12 +1,15 @@
 nav {
   background-color: var(--color-background-secondary-translucent);
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  backdrop-filter: var(--filter-blur);
+  -webkit-backdrop-filter: var(--filter-blur);
+          backdrop-filter: var(--filter-blur);
   transition: height 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 nav .inner {
