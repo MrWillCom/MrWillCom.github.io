@@ -26,6 +26,8 @@
   overflow: hidden;
   border-radius: var(--radius-large);
   background-color: var(--color-background-secondary);
+  display: flex;
+  flex-direction: column;
 }
 .card .cover-img {
   overflow: hidden;
@@ -45,15 +47,22 @@
 }
 .card .content {
   padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
-.card .title {
+.card .content .title,
+.card .content .description {
+  margin: 0;
+}
+.card .content .title {
   font-weight: bold;
   font-size: 24px;
   color: var(--color-text-primary);
   text-decoration: none;
   padding: 0;
 }
-.card .description {
+.card .content .description {
   font-size: 17px;
   color: var(--color-text-secondary);
   padding: 0;
@@ -62,18 +71,21 @@
   padding: 16px;
   padding-top: 0;
   display: flex;
-}
-.card .actions .left {
-  justify-content: flex-start;
+  justify-content: space-between;
+  gap: 6px;
+  margin-top: auto;
 }
 .card .actions .right {
   margin-left: auto;
-  justify-content: flex-end;
+}
+.card .actions .badge {
+  display: block;
 }
 .card .actions .action-button-primary {
+  font-size: 16px;
   background-color: var(--color-background-accent);
   color: var(--color-background-accent-contrast);
-  padding: 6px 12px;
+  padding: 4px 12px;
   border-radius: var(--radius-full);
   text-decoration: none;
   transition: 0.2s;
@@ -92,8 +104,7 @@
   font-size: 16px;
   border: 2px solid var(--color);
   color: var(--color);
-  padding: 0 8px;
-  margin: 0 6px;
+  padding: 0 10px;
   border-radius: var(--radius-full);
 }
 .badge.warning {
