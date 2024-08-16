@@ -30,7 +30,7 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
       - name: Install Dependencies for Theme Cupertino
-        run: cd themes/hexo-theme-cupertino && pnpm install && cd ../..
+        run: cd themes/cupertino && pnpm install && cd ../..
       - name: Clean Previous Build
         run: rm -rf docs
       - name: Hexo Clean
