@@ -1,6 +1,6 @@
 ---
 title: Apple Newsroom's UI is Updated
-date: 2020-08-31
+date: 2020-08-31 08:00:00
 cover_image: /img/000013.png
 cover_image_alt: A screenshot of Apple Newsroom's new UI
 categories: Essay

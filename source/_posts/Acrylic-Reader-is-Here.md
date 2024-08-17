@@ -1,6 +1,6 @@
 ---
 title: Acrylic Reader is Here
-date: 2020-08-30
+date: 2020-08-30 08:00:00
 cover_image: /img/000012.png
 cover_image_alt: The logo of Acrylic Reader
 categories: Announcement

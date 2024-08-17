@@ -1,6 +1,6 @@
 ---
 title: 这不过是个开场
-date: 2022-12-19
+date: 2022-12-19 08:00:00
 cover_image: /img/000033.jpg
 categories: Essay
 tags:

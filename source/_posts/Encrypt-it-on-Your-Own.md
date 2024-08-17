@@ -1,6 +1,6 @@
 ---
 title: Encrypt it on Your Own!
-date: 2021-08-14
+date: 2021-08-14 08:00:00
 cover_image: /img/000023.png
 cover_image_alt: The logo of RSA CLI
 categories: Essay

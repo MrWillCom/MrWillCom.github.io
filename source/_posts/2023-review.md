@@ -1,6 +1,6 @@
 ---
 title: 2023 年度总结
-date: 2023-12-26
+date: 2023-12-26 08:00:00
 cover_image: /img/000036.jpg
 cover_image_alt: 蓝色天空里的月亮
 tags:

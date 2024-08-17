@@ -1,6 +1,6 @@
 ---
 title: “严谨”的混乱——数学
-date: 2024-06-02
+date: 2024-06-02 08:00:00
 cover_image:
 cover_image_alt:
 tags:

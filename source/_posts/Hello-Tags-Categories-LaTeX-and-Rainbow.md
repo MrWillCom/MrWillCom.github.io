@@ -1,6 +1,6 @@
 ---
 title: Hello, Tags, Categories, LaTeX and Rainbow!
-date: 2022-05-31
+date: 2022-05-31 08:00:00
 cover_image: /img/000026.svg
 tags:
   - theme

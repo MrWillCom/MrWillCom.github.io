@@ -1,6 +1,6 @@
 ---
 title: Theme Cupertino is Updated
-date: 2020-09-13
+date: 2020-09-13 08:00:00
 cover_image: /img/000015.png
 cover_image_alt: A screen shot of theme Cupertino
 categories: Announcement

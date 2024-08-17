@@ -1,6 +1,6 @@
 ---
 title: About Comments
-date: 2021-07-16
+date: 2021-07-16 08:00:00
 cover_image: /img/000022.png
 cover_image_alt: About Comments
 categories: Announcement

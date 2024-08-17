@@ -1,6 +1,6 @@
 ---
 title: 'From Now on, I Can''t Respond on Weekdays'
-date: 2020-09-01
+date: 2020-09-01 08:00:00
 cover_image: /img/000014.png
 cover_image_alt: The image title
 categories: Announcement
