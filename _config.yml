@@ -9,7 +9,7 @@ description: Mr. Will is talking here.
 keywords: MrWillCom
 author: Mr. Will
 language: en
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -101,7 +101,7 @@ ignore:
 theme: cupertino
 
 plugins:
-    hexo-generator-feed
+  hexo-generator-feed
 
 #Feed Atom
 feed:
