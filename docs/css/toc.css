@@ -1,7 +1,14 @@
-.toc > p {
+.toc,
+.toc-child {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.toc .toc-item,
+.toc-child .toc-item {
   margin: 0;
 }
-.toc > p > a {
+.toc .toc-item > .toc-link,
+.toc-child .toc-item > .toc-link {
   color: var(--color-text-secondary);
   text-decoration: none;
   display: inline-block;
@@ -10,8 +17,34 @@
   border-left: 1px solid var(--color-border-primary);
   transition: color 0.2s, border-color 0.2s;
 }
-.toc > p > a:hover, .toc > p > a:focus-visible {
+.toc .toc-item > .toc-link:hover, .toc .toc-item > .toc-link:focus-visible,
+.toc-child .toc-item > .toc-link:hover,
+.toc-child .toc-item > .toc-link:focus-visible {
   color: var(--color-text-secondary-hover);
   text-decoration: none;
   border-color: var(--color-text-secondary-hover);
+}
+.toc .toc-item.toc-level-1 > .toc-link,
+.toc-child .toc-item.toc-level-1 > .toc-link {
+  padding-left: 12px;
+}
+.toc .toc-item.toc-level-2 > .toc-link,
+.toc-child .toc-item.toc-level-2 > .toc-link {
+  padding-left: 28px;
+}
+.toc .toc-item.toc-level-3 > .toc-link,
+.toc-child .toc-item.toc-level-3 > .toc-link {
+  padding-left: 44px;
+}
+.toc .toc-item.toc-level-4 > .toc-link,
+.toc-child .toc-item.toc-level-4 > .toc-link {
+  padding-left: 60px;
+}
+.toc .toc-item.toc-level-5 > .toc-link,
+.toc-child .toc-item.toc-level-5 > .toc-link {
+  padding-left: 76px;
+}
+.toc .toc-item.toc-level-6 > .toc-link,
+.toc-child .toc-item.toc-level-6 > .toc-link {
+  padding-left: 92px;
 }
