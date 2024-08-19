@@ -132,6 +132,22 @@
 <link rel="stylesheet" href="/css/view-transition.css">
 
   
+  
+  <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+  
+<link rel="stylesheet" href="https://unpkg.com/lenis@1.1.9/dist/lenis.css">
+
+  <script>
+    const lenis = new Lenis()
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+  </script>
+  
 
   
 <meta name="generator" content="Hexo 7.3.0"></head>
@@ -146,6 +162,10 @@
     data-rainbow-banner-colors="#e50000,#ff8d00,#ffee00,#008121,#004cff,#760188"
     
     data-config-root="/"
+    
+    data-toc="true"
+    data-toc-max-depth="2"
+    
     
   >
     <a href="#main-content" id="skip-to-content">Skip to content</a>
@@ -200,11 +220,7 @@
     <h1 class="title">Encrypt it on Your Own!</h1>
   </div>
 
-  
-  <aside class="toc-container">
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#0x00"><span class="toc-text">0x00</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0x01"><span class="toc-text">0x01</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0x02"><span class="toc-text">0x02</span></a></li></ol>
-  </aside>
-  
+  <div class="divider"></div>
 
   <div class="content">
     <p>Recently, I’ve written a CLI for RSA encryption and decryption - RSA CLI.</p>
@@ -252,7 +268,7 @@
       <p>This post is written by Mr. Will, licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
     </div>
     
-    <span class="tags">
+    <p class="tags">
       <i class="bi bi-tags icon"></i>
       
       <a href="/tags/rsa/" class="tag">#rsa</a>
@@ -261,12 +277,12 @@
       
       <a href="/tags/security/" class="tag">#security</a>
       
-    </span>
+    </p>
     
   </div>
   
 
-  <div class="post-prev-next">
+  <div class="container post-prev-next">
     
     <a href="/2022/05/31/Hello-Tags-Categories-LaTeX-and-Rainbow/" class="next">
       <div class="text">

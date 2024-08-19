@@ -132,6 +132,22 @@
 <link rel="stylesheet" href="/css/view-transition.css">
 
   
+  
+  <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+  
+<link rel="stylesheet" href="https://unpkg.com/lenis@1.1.9/dist/lenis.css">
+
+  <script>
+    const lenis = new Lenis()
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+  </script>
+  
 
   
 <meta name="generator" content="Hexo 7.3.0"></head>
@@ -146,6 +162,10 @@
     data-rainbow-banner-colors="#e50000,#ff8d00,#ffee00,#008121,#004cff,#760188"
     
     data-config-root="/"
+    
+    data-toc="true"
+    data-toc-max-depth="2"
+    
     
   >
     <a href="#main-content" id="skip-to-content">Skip to content</a>
@@ -200,11 +220,7 @@
     <h1 class="title">Theme Cupertino is Updated</h1>
   </div>
 
-  
-  <aside class="toc-container">
-    
-  </aside>
-  
+  <div class="divider"></div>
 
   <div class="content">
     <p><img src="/img/000015.png" alt="A screen shot of theme Cupertino"></p>
@@ -235,19 +251,19 @@
       <p>This post is written by Mr. Will, licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
     </div>
     
-    <span class="tags">
+    <p class="tags">
       <i class="bi bi-tags icon"></i>
       
       <a href="/tags/theme/" class="tag">#theme</a>
       
       <a href="/tags/blog/" class="tag">#blog</a>
       
-    </span>
+    </p>
     
   </div>
   
 
-  <div class="post-prev-next">
+  <div class="container post-prev-next">
     
     <a href="/2020/12/11/GitHub-s-Own-Dark-Mode/" class="next">
       <div class="text">

@@ -128,6 +128,22 @@
 <link rel="stylesheet" href="/css/view-transition.css">
 
   
+  
+  <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+  
+<link rel="stylesheet" href="https://unpkg.com/lenis@1.1.9/dist/lenis.css">
+
+  <script>
+    const lenis = new Lenis()
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+  </script>
+  
 
   
 <meta name="generator" content="Hexo 7.3.0"></head>
@@ -142,6 +158,10 @@
     data-rainbow-banner-colors="#e50000,#ff8d00,#ffee00,#008121,#004cff,#760188"
     
     data-config-root="/"
+    
+    data-toc="true"
+    data-toc-max-depth="2"
+    
     
   >
     <a href="#main-content" id="skip-to-content">Skip to content</a>
@@ -186,11 +206,7 @@
     <h1 class="title">Friends</h1>
   </div>
 
-  
-  <aside class="toc-container">
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Me"><span class="toc-text">Me</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Mr. Will</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Friends"><span class="toc-text">Friends</span></a></li></ol>
-  </aside>
-  
+  <div class="divider"></div>
 
   <div class="content">
     <h2 id="Me"><a href="#Me" class="headerlink" title="Me"></a>Me</h2><div class="container">
@@ -251,7 +267,7 @@
   </div>
   
 
-  <div class="post-prev-next">
+  <div class="container post-prev-next">
     <a class="next"></a>
     <a class="prev"></a>
   </div>

@@ -132,6 +132,22 @@
 <link rel="stylesheet" href="/css/view-transition.css">
 
   
+  
+  <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+  
+<link rel="stylesheet" href="https://unpkg.com/lenis@1.1.9/dist/lenis.css">
+
+  <script>
+    const lenis = new Lenis()
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+  </script>
+  
 
   
 <meta name="generator" content="Hexo 7.3.0"></head>
@@ -146,6 +162,10 @@
     data-rainbow-banner-colors="#e50000,#ff8d00,#ffee00,#008121,#004cff,#760188"
     
     data-config-root="/"
+    
+    data-toc="true"
+    data-toc-max-depth="2"
+    
     
   >
     <a href="#main-content" id="skip-to-content">Skip to content</a>
@@ -200,11 +220,7 @@
     <h1 class="title">这不过是个开场</h1>
   </div>
 
-  
-  <aside class="toc-container">
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%92%E5%81%87"><span class="toc-text">寒假</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80"><span class="toc-text">四月是你的谎言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%AD%E8%80%83"><span class="toc-text">中考</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AF%95%E4%B8%9A"><span class="toc-text">毕业</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E5%B0%8F%E7%9A%84%E6%97%85%E8%A1%8C"><span class="toc-text">小小的旅行~</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B"><span class="toc-text">新的开始</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%94%BE%E5%BC%80"><span class="toc-text">放开</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%98%E6%B1%B0%E8%B5%9B"><span class="toc-text">淘汰赛</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%BE%E5%A3%B0"><span class="toc-text">尾声</span></a></li></ol>
-  </aside>
-  
+  <div class="divider"></div>
 
   <div class="content">
     <p>2022，是从一模开始的。但是关于一模，并没有什么好说的。还是从寒假讲起吧。</p>
@@ -265,7 +281,7 @@
       <p>This post is written by Mr. Will, licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
     </div>
     
-    <span class="tags">
+    <p class="tags">
       <i class="bi bi-tags icon"></i>
       
       <a href="/tags/life/" class="tag">#life</a>
@@ -274,12 +290,12 @@
       
       <a href="/tags/school/" class="tag">#school</a>
       
-    </span>
+    </p>
     
   </div>
   
 
-  <div class="post-prev-next">
+  <div class="container post-prev-next">
     
     <a href="/2023/12/26/2023-review/" class="next">
       <div class="text">
