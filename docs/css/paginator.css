@@ -16,6 +16,7 @@
   color: var(--color-text-primary);
   transition-property: background-color, color;
   transition-duration: 0.2s;
+  --radius-full: 16px;
 }
 .paginator > a:hover, .paginator > a:focus-visible, .paginator > span:hover, .paginator > span:focus-visible {
   background-color: var(--color-background-primary-hover);
