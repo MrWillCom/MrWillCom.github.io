@@ -84,7 +84,7 @@ categories: Essay
   font-weight: 700;
 }
 
-.content {
+.post > .content {
   font-size: 17px;
 }
 
