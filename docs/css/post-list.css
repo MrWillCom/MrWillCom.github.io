@@ -7,6 +7,7 @@
   gap: 20px 16px;
   max-width: 980px;
   margin: auto;
+  margin-bottom: 32px;
 }
 @media (max-width: 600px) {
   .post-list {
@@ -94,7 +95,6 @@
 .post-list.archives {
   display: block;
   max-width: 980px;
-  margin: auto;
 }
 .post-list.archives .post-list-item {
   border-radius: 0;
