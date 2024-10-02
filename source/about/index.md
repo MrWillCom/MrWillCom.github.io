@@ -12,7 +12,7 @@ In the summer of 2018, I even created my first blog without any site generators,
 
 I joined GitHub in 2019 with my websites.
 
-![The screenshot of when I joined GitHub](/img/000000.png)
+![The screenshot of when I joined GitHub](/img/000000.webp)
 
 While trying, learning and practicing JavaScript, CSS and more, a year was past.
 
