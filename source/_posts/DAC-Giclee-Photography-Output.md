@@ -63,10 +63,7 @@ categories: Work
 好东西值得分享，之前的明信片是在学校小范围售卖了一波。这次的微喷的作品我也正在考虑要不要开放售卖，感兴趣的话请填填下方的问卷吧！
 
 <div class="container">
-  <details class="foldable">
-    <summary>问卷</summary>
-    <div data-mf-id="9knL0fr" data-mf-title="微喷卖不卖" data-mf-auto-resize style="width:100%; height:785px;"></div><script src="https://minform.io/embed.js"></script>
-  </details>
+  <div data-mf-id="9knL0fr" data-mf-title="微喷卖不卖" data-mf-auto-resize style="width:100%; height:785px;"></div><script src="https://minform.io/embed.js"></script>
 </div>
 
 <style>
@@ -74,13 +71,5 @@ categories: Work
   font-size: 17px;
 
   --radius-medium: 6px;
-}
-
-.foldable > summary::before {
-  content: '展开';
-}
-
-.foldable[open] > summary::before {
-  content: '折叠';
 }
 </style>
