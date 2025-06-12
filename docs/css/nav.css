@@ -9,6 +9,11 @@ nav {
   z-index: 1000;
   transition: height 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
+[data-nav-blur-gradient=false] nav {
+  background-color: var(--color-background-secondary-translucent);
+  -webkit-backdrop-filter: var(--filter-blur);
+          backdrop-filter: var(--filter-blur);
+}
 nav .inner {
   max-width: 980px;
   margin: auto;
@@ -146,7 +151,7 @@ nav .inner .nav-items .nav-item-home {
   }
 }
 
-.masked > [order] {
+.nav-mask > [order] {
   position: fixed;
   top: 0;
   left: 0;
@@ -165,55 +170,55 @@ nav .inner .nav-items .nav-item-home {
   transition: height 0.6s cubic-bezier(0.86, 0, 0.07, 1), backdrop-filter 0.6s cubic-bezier(0.86, 0, 0.07, 1), -webkit-backdrop-filter 0.6s cubic-bezier(0.86, 0, 0.07, 1);
   --height: 100px;
 }
-.nav-open .masked > [order] {
+.nav-open .nav-mask > [order] {
   -webkit-backdrop-filter: blur(36px);
           backdrop-filter: blur(36px);
 }
-.masked > [order][order="1"] {
+.nav-mask > [order][order="1"] {
   height: calc(var(--height) / 1);
 }
 @media (max-width: 600px) {
-  .nav-open .masked > [order][order="1"] {
+  .nav-open .nav-mask > [order][order="1"] {
     height: calc(var(--open-height) * 4 / 1);
   }
 }
-.masked > [order][order="2"] {
+.nav-mask > [order][order="2"] {
   height: calc(var(--height) / 1.2);
 }
 @media (max-width: 600px) {
-  .nav-open .masked > [order][order="2"] {
+  .nav-open .nav-mask > [order][order="2"] {
     height: calc(var(--open-height) * 4 / 1.2);
   }
 }
-.masked > [order][order="3"] {
+.nav-mask > [order][order="3"] {
   height: calc(var(--height) / 1.44);
 }
 @media (max-width: 600px) {
-  .nav-open .masked > [order][order="3"] {
+  .nav-open .nav-mask > [order][order="3"] {
     height: calc(var(--open-height) * 4 / 1.44);
   }
 }
-.masked > [order][order="4"] {
+.nav-mask > [order][order="4"] {
   height: calc(var(--height) / 1.728);
 }
 @media (max-width: 600px) {
-  .nav-open .masked > [order][order="4"] {
+  .nav-open .nav-mask > [order][order="4"] {
     height: calc(var(--open-height) * 4 / 1.728);
   }
 }
-.masked > [order][order="5"] {
+.nav-mask > [order][order="5"] {
   height: calc(var(--height) / 2.0736);
 }
 @media (max-width: 600px) {
-  .nav-open .masked > [order][order="5"] {
+  .nav-open .nav-mask > [order][order="5"] {
     height: calc(var(--open-height) * 4 / 2.0736);
   }
 }
-.masked > [order][order="6"] {
+.nav-mask > [order][order="6"] {
   height: calc(var(--height) / 2.48832);
 }
 @media (max-width: 600px) {
-  .nav-open .masked > [order][order="6"] {
+  .nav-open .nav-mask > [order][order="6"] {
     height: calc(var(--open-height) * 4 / 2.48832);
   }
 }
