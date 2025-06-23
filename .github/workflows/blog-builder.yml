@@ -54,7 +54,7 @@ jobs:
           git worktree add ../gh-pages gh-pages
           cd ../gh-pages
           find . -mindepth 1 -not -name '.git' -exec rm -rf {} +
-          cp -r "${MAIN_REPOSITORY_DIR}/public/" ./
+          cp -r "${MAIN_REPOSITORY_DIR}/public/." ./
           git add .
           git commit -m "Hexo Blog Build"
           git push origin gh-pages
