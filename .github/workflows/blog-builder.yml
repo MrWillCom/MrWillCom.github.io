@@ -22,27 +22,22 @@ jobs:
           fetch-depth: 1
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
+          cache: 'pnpm'
       - name: Clone Submodule
         run: git submodule init && git submodule update
-      - name: Install pnpm
-        run: npm i pnpm -g
       - name: Install Dependencies
         run: pnpm install
       - name: Install Dependencies for Theme Cupertino
         run: cd themes/cupertino && pnpm install && cd ../..
-      - name: Clean Previous Build
-        run: rm -rf docs
       - name: Hexo Clean
         run: pnpm run clean
       - name: Generate New Build
         run: pnpm run build
-      - name: Move docs/ to public/
-        run: mv public docs
       - name: Publish
         run: |
           git config --global user.name "Hexo Deploy Bot"
           git config --global user.email "nobody@nobody.nobody"
-          git add .
+          git add public/ -f
           git commit -m "Hexo Blog Build"
-          git push
+          git subtree push --prefix=public origin gh-pages
