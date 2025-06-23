@@ -2,4 +2,13 @@ insertions:
   head:
     ending: <script defer src="https://cloud.umami.is/script.js" data-website-id="bff537e4-989e-4ae3-9639-73a36c0b494f" data-domains="blog.mrwillcom.com,mrwillcom.github.io"></script>
 
+hero:
+  title: Mr. Will's Blog
+  description: |
+    Mr. Will is talking here.
+
+hero_exit_while_scrolling:
+  enabled: true
+  blur_filter: true
+
 nav_blur_gradient: true
