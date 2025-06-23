@@ -23,17 +23,26 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'pnpm'
+      - name: Install corepack
+        run: npm install -g corepack
+      - name: Install package manager
+        run: corepack install
       - name: Clone Submodule
-        run: git submodule init && git submodule update
+        run: |
+          git submodule init
+          git submodule update
       - name: Install Dependencies
-        run: pnpm install
+        run: corepack pnpm install
       - name: Install Dependencies for Theme Cupertino
-        run: cd themes/cupertino && pnpm install && cd ../..
+        run: |
+          cd themes/cupertino
+          corepack install
+          corepack pnpm install
+          cd ../..
       - name: Hexo Clean
-        run: pnpm run clean
+        run: corepack pnpm run clean
       - name: Generate New Build
-        run: pnpm run build
+        run: corepack pnpm run build
       - name: Publish
         run: |
           git config --global user.name "Hexo Deploy Bot"
