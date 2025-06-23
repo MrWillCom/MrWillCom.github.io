@@ -1,0 +1,297 @@
+.post {
+  margin-bottom: 64px;
+}
+
+#main-content > * > .meta {
+  margin-top: 128px;
+}
+#main-content > * > .meta > * {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+#main-content > * > .meta .categories {
+  color: var(--color-text-accent);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+#main-content > * > .meta .categories a {
+  font-size: 13px;
+  margin-right: 6px;
+  text-decoration: none;
+}
+#main-content > * > .meta .date {
+  display: block;
+  color: var(--color-text-secondary);
+  font-weight: 600;
+}
+#main-content > * > .meta .title {
+  font-size: 48px;
+  margin-top: 16px;
+}
+
+.post {
+  /* only `& > .content > pre`, do not include <pre /> in <figure /> */
+  /* for [hexo-math](https://github.com/hexojs/hexo-math): */
+}
+.post > .content {
+  margin-top: 64px;
+  font-size: 19px;
+  line-height: 1.4211;
+  font-weight: 400;
+}
+.post > .content p, .post > .content h1, .post > .content h2, .post > .content h3, .post > .content h4, .post > .content h5, .post > .content h6, .post > .content figure, .post > .content > pre,
+.post .divider,
+.post .container,
+.post hr,
+.post .toc, .post > .content blockquote, .post > .content table, .post > .content video, .post > .content ul, .post > .content ol, .post > .content > mjx-container, .post > .content > .katex,
+.post .about {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+.post > .content p img, .post > .content .block-large img, .post > .content figure img {
+  border-radius: var(--radius-medium);
+}
+@media (max-width: 1000px) {
+  .post > .content .block-large img {
+    border-radius: 0;
+  }
+}
+.post > .content table, .post > .content video {
+  display: block;
+}
+.post > .content table {
+  padding: 0;
+  border-collapse: collapse;
+  border-radius: var(--radius-medium);
+  max-width: 800px;
+  overflow-x: auto;
+}
+.post > .content table tr {
+  background-color: var(--color-background-secondary);
+}
+.post > .content table tr:nth-child(even) {
+  background-color: transparent;
+}
+.post > .content table th,
+.post > .content table td {
+  margin: 0;
+  padding: 6px 12px;
+}
+.post > .content table th {
+  border-bottom: 1px solid var(--color-border-primary);
+}
+.post > .content table thead tr th:first-child {
+  border-top-left-radius: var(--radius-medium);
+}
+.post > .content table thead tr th:last-child {
+  border-top-right-radius: var(--radius-medium);
+}
+.post > .content table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: var(--radius-medium);
+}
+.post > .content table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: var(--radius-medium);
+}
+@media (max-width: 800px) {
+  .post > .content table,
+  .post > .content table thead tr th:first-child,
+  .post > .content table thead tr th:last-child,
+  .post > .content table tbody tr:last-child td:first-child,
+  .post > .content table tbody tr:last-child td:last-child {
+    border-radius: 0;
+  }
+}
+.post > .content video {
+  max-width: 100%;
+  padding: 0;
+}
+.post > .content .highlight, .post > .content > pre {
+  overflow-x: auto;
+  overflow-y: hidden;
+  background-color: var(--color-background-secondary);
+  border-radius: var(--radius-medium);
+  max-width: 768px;
+}
+@media (max-width: 800px) {
+  .post > .content .highlight, .post > .content > pre {
+    border-radius: 0;
+  }
+}
+.post > .content .highlight * {
+  border: none;
+}
+.post > .content .highlight .gutter {
+  padding-right: 16px;
+}
+.post > .content > pre {
+  max-width: 752px;
+  padding: 20px 24px;
+}
+.post > .content > pre * > code {
+  background-color: transparent;
+}
+.post > .content ul, .post > .content ol {
+  padding: 0 16px;
+  padding-left: 32px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  max-width: 768px;
+}
+.post > .content blockquote {
+  max-width: 768px;
+  padding: 0 8px;
+}
+.post > .content figure figcaption {
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-text-secondary);
+}
+.post > .content > mjx-container, .post > .content > .katex {
+  display: block;
+  text-align: center;
+}
+.post .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.post .tags .icon {
+  font-size: 14px;
+  display: block;
+  margin-right: 2px;
+}
+.post .tags .tag {
+  font-size: 14px;
+  display: block;
+  height: 14px;
+}
+.post .about {
+  border-radius: var(--radius-medium);
+  background-color: var(--color-background-secondary);
+  max-width: 768px;
+  padding: 16px;
+  margin: 64px auto;
+}
+@media (max-width: 800px) {
+  .post .about {
+    border-radius: 0;
+  }
+}
+.post .about h1 {
+  margin: 0;
+}
+.post .about .details {
+  margin: 16px 0;
+}
+.post .about .details p {
+  margin: 6px 0;
+}
+.post > .content h1 > .headerlink,
+.post > .content h2 > .headerlink,
+.post > .content h3 > .headerlink,
+.post > .content h4 > .headerlink,
+.post > .content h5 > .headerlink,
+.post > .content h6 > .headerlink {
+  opacity: 0;
+  color: var(--color-text-tertiary);
+  font-weight: normal;
+  position: absolute;
+  padding-right: 6px;
+  transform: translateX(-100%);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+.post > .content h1 > .headerlink::before,
+.post > .content h2 > .headerlink::before,
+.post > .content h3 > .headerlink::before,
+.post > .content h4 > .headerlink::before,
+.post > .content h5 > .headerlink::before,
+.post > .content h6 > .headerlink::before {
+  content: "#";
+}
+.post > .content h1:hover > .headerlink,
+.post > .content h1 .headerlink:hover,
+.post > .content h1 .headerlink:focus-visible,
+.post > .content h2:hover > .headerlink,
+.post > .content h2 .headerlink:hover,
+.post > .content h2 .headerlink:focus-visible,
+.post > .content h3:hover > .headerlink,
+.post > .content h3 .headerlink:hover,
+.post > .content h3 .headerlink:focus-visible,
+.post > .content h4:hover > .headerlink,
+.post > .content h4 .headerlink:hover,
+.post > .content h4 .headerlink:focus-visible,
+.post > .content h5:hover > .headerlink,
+.post > .content h5 .headerlink:hover,
+.post > .content h5 .headerlink:focus-visible,
+.post > .content h6:hover > .headerlink,
+.post > .content h6 .headerlink:hover,
+.post > .content h6 .headerlink:focus-visible {
+  opacity: 1;
+}
+.post > .content > h1 {
+  font-size: 36px;
+}
+.post > .content > h2 {
+  font-size: 30px;
+}
+.post > .content > h3 {
+  font-size: 26px;
+}
+.post > .content > h4 {
+  font-size: 20px;
+}
+.post > .content > h5 {
+  font-size: 16px;
+}
+.post > .content > h6 {
+  font-size: 14px;
+}
+.post .post-prev-next {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+}
+.post .post-prev-next > a {
+  width: 50%;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  display: flex;
+  transition: color 0.2s;
+}
+.post .post-prev-next > a:hover, .post .post-prev-next > a:focus-visible {
+  color: var(--color-text-secondary-hover);
+}
+.post .post-prev-next .text {
+  display: flex;
+  flex-direction: column;
+}
+.post .post-prev-next .prev .text .title,
+.post .post-prev-next .prev .text .label,
+.post .post-prev-next .next .text .title,
+.post .post-prev-next .next .text .label {
+  margin: 0;
+}
+.post .post-prev-next .prev .text .label,
+.post .post-prev-next .next .text .label {
+  margin-bottom: 4px;
+  color: var(--color-text-secondary);
+}
+.post .post-prev-next .prev {
+  justify-content: flex-end;
+  text-align: right;
+}
+.post .post-prev-next .prev .text {
+  align-items: flex-end;
+}
+.post .post-prev-next .next {
+  justify-content: flex-start;
+  text-align: left;
+}
+.post .post-prev-next .next .text {
+  align-items: flex-start;
+}
