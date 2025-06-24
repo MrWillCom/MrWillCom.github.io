@@ -1,3 +1,7 @@
+body {
+  margin-top: 0;
+}
+
 .post {
   margin-bottom: 64px;
 }
@@ -34,6 +38,42 @@
 .post {
   /* only `& > .content > pre`, do not include <pre /> in <figure /> */
   /* for [hexo-math](https://github.com/hexojs/hexo-math): */
+}
+.post > .cover {
+  max-width: 100%;
+  overflow: clip visible;
+}
+.post > .cover > .cover-img {
+  --h: 300px;
+  -webkit-mask-image: linear-gradient(to bottom, #000, transparent);
+          mask-image: linear-gradient(to bottom, #000, transparent);
+  -webkit-mask-composite: destination-in;
+          mask-composite: destination-in;
+  height: var(--h);
+  margin-bottom: calc(var(--h) * -0.6);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@supports (animation-timeline: scroll()) {
+  .post > .cover > .cover-img {
+    --range: calc(var(--h) * 3);
+    --offset-coefficient: 0.4;
+    will-change: filter, margin-top, margin-bottom, opacity, scale;
+    animation-name: cover-exit;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 0 var(--range);
+  }
+  @keyframes cover-exit {
+    100% {
+      opacity: 0;
+      scale: 1.2;
+      margin-top: calc(var(--range) * var(--offset-coefficient));
+      margin-bottom: calc(var(--range) * -1 * var(--offset-coefficient));
+      filter: var(--filter-blur);
+    }
+  }
 }
 .post > .content {
   margin-top: 64px;
