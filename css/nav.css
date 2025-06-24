@@ -156,7 +156,7 @@ nav .inner .nav-items .nav-item-home {
   top: 0;
   left: 0;
   right: 0;
-  background-color: var(--color-background-secondary-translucent-lite);
+  background-color: var(--color-background-primary-translucent);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   -webkit-mask-image: linear-gradient(to bottom, #000, transparent);

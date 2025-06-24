@@ -20,8 +20,8 @@
 <meta property="og:site_name" content="Mr. Will">
 <meta property="og:description" content="Mr. Will is talking here.">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-06-23T18:20:01.599Z">
-<meta property="article:modified_time" content="2025-06-23T18:20:01.599Z">
+<meta property="article:published_time" content="2025-06-24T08:55:37.742Z">
+<meta property="article:modified_time" content="2025-06-24T08:55:37.742Z">
 <meta property="article:author" content="Mr. Will">
 <meta property="article:tag" content="MrWillCom">
 <meta name="twitter:card" content="summary">
@@ -116,6 +116,12 @@
   
   
   
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+
+  
+<script src="/pagefind/pagefind-ui.js"></script>
+
+  
 <link rel="stylesheet" href="/css/search.css">
 
   
@@ -164,7 +170,7 @@
     data-toc-max-depth="2"
     
     
-    data-search-path="search.json"
+    data-search-path=""
     
     
     data-scroll-reveal-disappear="false"
@@ -220,15 +226,9 @@
     <main id="main-content">
       
   <div class="container">
-  <div class="meta">
-    <h2 class="title">Search</h2>
-  </div>
-  <form id="search-form">
-    <input type="text" id="searchbox" placeholder="Type to search...">
-  </form>
-  <div class="post-list archives" id="search-results"></div>
+  <div id="search"></div>
+  <script>window.addEventListener('DOMContentLoaded', () => { new PagefindUI({ element: "#search", showSubResults: true }) })</script>
 </div>
-
 
 
     </main>
