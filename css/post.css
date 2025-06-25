@@ -231,6 +231,9 @@ body {
 .post .about .details p {
   margin: 6px 0;
 }
+.post .about > .extra {
+  font-size: 15px;
+}
 .post > .content h1 > .headerlink,
 .post > .content h2 > .headerlink,
 .post > .content h3 > .headerlink,
