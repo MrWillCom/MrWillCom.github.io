@@ -53,6 +53,7 @@ body {
   margin-bottom: calc(var(--h) * -0.6);
   -o-object-fit: cover;
      object-fit: cover;
+  pointer-events: none;
 }
 @supports (animation-timeline: scroll()) {
   .post > .cover > .cover-img {
