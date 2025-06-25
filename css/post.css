@@ -58,7 +58,7 @@ body {
 @supports (animation-timeline: scroll()) {
   .post > .cover > .cover-img {
     --range: calc(var(--h) * 3);
-    --offset-coefficient: 0.4;
+    --offset-coefficient: 0.5;
     will-change: filter, margin-top, margin-bottom, opacity, scale;
     animation-name: cover-exit;
     animation-timing-function: linear;
