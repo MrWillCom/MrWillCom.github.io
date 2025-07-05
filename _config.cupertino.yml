@@ -12,3 +12,5 @@ hero_exit_while_scrolling:
   blur_filter: true
 
 nav_blur_gradient: true
+
+search: true
