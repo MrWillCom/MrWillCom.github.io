@@ -13,4 +13,73 @@ hero_exit_while_scrolling:
 
 nav_blur_gradient: true
 
+nav:
+  title: Blog
+  items:
+    - name: Archives
+      url: /archives
+    - name: Friends
+      url: /friends
+    - name: Projects
+      url: /projects
+    - name: About
+      url: /about
+    - name: <i class="si si-github"></i>
+      is_icon: true
+      url: https://github.com/MrWillCom
+    - name: <i class="si si-codepen"></i>
+      is_icon: true
+      url: https://codepen.io/mrwillcom
+    - name: <i class="si si-patreon"></i>
+      is_icon: true
+      url: https://www.patreon.com/MrWillCom
+    - name: <i class="si si-mastodon"></i>
+      is_icon: true
+      url: https://noc.social/@MrWillCom
+    - name: <i class="bi bi-search"></i>
+      is_icon: true
+      url: /search
+
+footer:
+  - group_name: Blog
+    items:
+      - name: Home
+        url: /
+      - name: Archives
+        url: /archives
+      - name: Tags
+        url: /tags
+      - name: Categories
+        url: /categories
+      - name: Search
+        url: /search
+      - name: Friends
+        url: /friends
+      - name: Projects
+        url: /projects
+      - name: Resume
+        url: /resume
+      - name: About
+        url: /about
+      - name: RSS
+        url: /atom.xml
+  - group_name: Projects
+    items:
+      - name: Hexo Theme Cupertino
+        url: https://github.com/MrWillCom/hexo-theme-cupertino
+      - name: Next Mastodon Gallery
+        url: https://github.com/MrWillCom/next-mastodon-gallery
+  - group_name: Me
+    items:
+      - name: GitHub
+        url: https://github.com/MrWillCom
+      - name: CodePen
+        url: https://codepen.io/mrwillcom
+      - name: Patreon
+        url: https://www.patreon.com/MrWillCom
+      - name: Mastodon
+        url: https://noc.social/@MrWillCom
+      - name: Email
+        url: mailto:mr.will.com@outlook.com
+
 search: true
