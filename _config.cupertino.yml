@@ -9,6 +9,7 @@ insertions:
           trackScreenViews: true,
           trackOutgoingLinks: true,
           trackAttributes: true,
+          filter: () => { return localStorage.getItem('umami.disabled') !== '1' },
         });
       </script>
       <script src="https://openpanel.dev/op1.js" defer async></script>
