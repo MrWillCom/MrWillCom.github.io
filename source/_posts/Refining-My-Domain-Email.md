@@ -19,7 +19,7 @@ Although Cloudflare’s products appeared promising, I was determined to send em
 
 By starting 30 day free trial, I have begun experiencing Spacemail. Spacemail has a clear web interface with essential functionalities built in, which is simple and responds fast.
 
-<div class="carousel" >
+<div class="carousel">
   <figure>
     <img src="/img/000051.webp" alt="A screenshot of Spacemail web interface." class="carousel-item" />
     <figcaption>Web interface.</figcaption>
