@@ -95,3 +95,5 @@ footer:
         url: mailto:mr.will.com@outlook.com
 
 search: true
+
+favicon: /favicon.webp
