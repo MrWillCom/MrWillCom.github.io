@@ -48,7 +48,7 @@ Safari is definitely not a good browser. Its late support for new web features a
 
 ## Terminal
 
-[Ghostty](Ghostty) is an feature-rich terminal emulator. Here is my configuration:
+[Ghostty](https://ghostty.org/) is an feature-rich terminal emulator. Here is my configuration:
 
 ```
 background-opacity = 0.8
