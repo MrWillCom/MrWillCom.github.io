@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="og: https://ogp.me/ns#">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  
+  <title>My Home Page, Reimagined - Mr. Will</title>
+  
+    <link rel="shortcut icon" href="/favicon.webp">
+  
+  
+  <link rel='manifest' href='/manifest.json'>
+  
+
+  <meta name="description" content="My home page is at mrwillcom.com. Last time I refactor my home page is over 3 years ago. That version was based on Markdown, written in Nunjucks and built by Eleventy. Information used to live in tabl">
+<meta property="og:type" content="article">
+<meta property="og:title" content="My Home Page, Reimagined">
+<meta property="og:url" content="https://blog.mrwillcom.com/2025/09/28/My-Home-Page-Reimagined/index.html">
+<meta property="og:site_name" content="Mr. Will">
+<meta property="og:description" content="My home page is at mrwillcom.com. Last time I refactor my home page is over 3 years ago. That version was based on Markdown, written in Nunjucks and built by Eleventy. Information used to live in tabl">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://blog.mrwillcom.com/img/000063.webp">
+<meta property="og:image" content="https://blog.mrwillcom.com/img/000064.webp">
+<meta property="article:published_time" content="2025-09-28T09:27:58.000Z">
+<meta property="article:modified_time" content="2025-09-28T09:33:49.501Z">
+<meta property="article:author" content="Mr. Will">
+<meta property="article:tag" content="life">
+<meta property="article:tag" content="design">
+<meta property="article:tag" content="home-page">
+<meta property="article:tag" content="webdev">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.mrwillcom.com/img/000063.webp">
+
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  
+  
+<link rel="stylesheet" href="https://unpkg.com/simple-icons-font@15/font/simple-icons.min.css">
+
+  
+  
+  
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-icons@1/font/bootstrap-icons.min.css">
+
+  
+
+  
+<link rel="stylesheet" href="/css/var.css">
+
+  
+<link rel="stylesheet" href="/css/main.css">
+
+  
+<link rel="stylesheet" href="/css/typography.css">
+
+  
+<link rel="stylesheet" href="/css/code-highlighting.css">
+
+  
+  
+  
+<link rel="stylesheet" href="/css/components/card.css">
+
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/components/button.css">
+
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/components/badge.css">
+
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/components/utilities.css">
+
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/components/carousel.css">
+
+  
+  
+  
+<link rel="stylesheet" href="/css/nav.css">
+
+  
+<link rel="stylesheet" href="/css/paginator.css">
+
+  
+<link rel="stylesheet" href="/css/footer.css">
+
+  
+<link rel="stylesheet" href="/css/post-list.css">
+
+  
+  
+  
+<link rel="stylesheet" href="/css/toc.css">
+
+  
+  
+    
+<link rel="stylesheet" href="/css/giscus.css">
+
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/post.css">
+
+  
+  
+  
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/scroll-reveal.css">
+
+  
+  
+  
+<link rel="stylesheet" href="/css/view-transition.css">
+
+  
+  
+  <script src="https://unpkg.com/lenis@1/dist/lenis.min.js"></script>
+  
+<link rel="stylesheet" href="https://unpkg.com/lenis@1/dist/lenis.css">
+
+  
+<script src="/js/smooth-scroll.js"></script>
+
+  
+
+  
+
+  
+<script src="/js/head.js"></script>
+
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="bff537e4-989e-4ae3-9639-73a36c0b494f" data-domains="blog.mrwillcom.com,mrwillcom.github.io"></script>
+<script>
+  window.op = window.op||function(...args){(window.op.q=window.op.q||[]).push(args);};
+  window.op('init', {
+    clientId: '89b96e4d-3203-432d-b76d-eee2c278e484',
+    trackScreenViews: true,
+    trackOutgoingLinks: true,
+    trackAttributes: true,
+    filter: () => { return localStorage.getItem('umami.disabled') !== '1' },
+  });
+</script>
+<script src="https://openpanel.dev/op1.js" defer async></script>
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+  <body
+    data-color-scheme="auto"
+    data-uppercase-categories="true"
+    
+    data-config-root="/"
+    
+    data-toc="true"
+    data-toc-max-depth="2"
+    
+    
+    
+    data-scroll-reveal-disappear="false"
+    data-scroll-reveal-query=".scroll-reveal, .post-list-item, .card, .content p img, .content .block-large img"
+    
+    data-nav-blur-gradient="true"
+  >
+    
+<script src="/js/body-top.js"></script>
+
+    <a href="#main-content" id="skip-to-content">Skip to content</a>
+    
+
+<div class="nav-mask">
+  <div order="1"></div>
+  <div order="2"></div>
+  <div order="3"></div>
+  <div order="4"></div>
+  <div order="5"></div>
+  <div order="6"></div>
+</div>
+
+<nav id="theme-nav">
+  <div class="inner">
+    <a class="title" href="/">Blog</a>
+    <div class="nav-arrow"></div>
+    <div class="nav-items">
+      <a class="nav-item nav-item-home" href="/" style="--index: 0">Home</a>
+
+      
+      <a class="nav-item" href="/archives" style="--index: 1">Archives</a>
+      
+      <a class="nav-item" href="/friends" style="--index: 2">Friends</a>
+      
+      <a class="nav-item" href="/projects" style="--index: 3">Projects</a>
+      
+      <a class="nav-item" href="/about" style="--index: 4">About</a>
+      
+      <a class="nav-item is-icon" target="_blank" rel="noopener" href="https://github.com/MrWillCom" style="--index: 5"><i class="si si-github"></i></a>
+      
+      <a class="nav-item is-icon" target="_blank" rel="noopener" href="https://codepen.io/mrwillcom" style="--index: 6"><i class="si si-codepen"></i></a>
+      
+      <a class="nav-item is-icon" target="_blank" rel="noopener" href="https://www.patreon.com/MrWillCom" style="--index: 7"><i class="si si-patreon"></i></a>
+      
+      <a class="nav-item is-icon" target="_blank" rel="noopener" href="https://noc.social/@MrWillCom" style="--index: 8"><i class="si si-mastodon"></i></a>
+      
+      <a class="nav-item is-icon" href="/search" style="--index: 9"><i class="bi bi-search"></i></a>
+      
+    </div>
+  </div>
+</nav>
+
+    <main id="main-content" data-pagefind-body>
+      
+<article class="post">
+  
+  <div class="cover">
+    <img src="/img/000065.webp" alt="Two lines as dividers are crossed, making four grids." class="cover-img" data-pagefind-meta="image[src], image_alt[alt]" />
+  </div>
+  
+  <div class="meta">
+    
+    <div class="categories text-uppercase">
+    
+      <a href="/categories/Announcement/">Announcement</a>
+    
+    </div>
+    
+
+    
+    <time class="date" datetime="2025-09-28T09:27:58+00:00">
+      September 28, 2025
+    </time>
+    
+
+    <h1 class="title" data-pagefind-meta="title">My Home Page, Reimagined</h1>
+  </div>
+
+  <div class="content">
+    <p>My home page is at <a target="_blank" rel="noopener" href="https://mrwillcom.com/">mrwillcom.com</a>. Last time I refactor my home page is over 3 years ago. That version was based on Markdown, written in <a target="_blank" rel="noopener" href="https://mozilla.github.io/nunjucks">Nunjucks</a> and built by <a target="_blank" rel="noopener" href="https://www.11ty.dev/">Eleventy</a>. Information used to live in tables, which wasn’t eye-catching enough. All layouts were similar and boring. This prompts me to begin refactoring my home page again.</p>
+<h2 id="Designing"><a href="#Designing" class="headerlink" title="Designing"></a>Designing</h2><p>My idea is inspired by <a target="_blank" rel="noopener" href="http://vercel.com/home">Vercel’s home page</a>. Square and light borders can make the main area stand out and attract the visitors to focus the main area. I usd pure white for the main area, but a brighter black for it in dark mode, so the main area is always brighter than the underlying background.</p>
+<p>For typography, I chose <a target="_blank" rel="noopener" href="https://rsms.me/inter/">Inter</a> for all sans-serif fonts and <a target="_blank" rel="noopener" href="https://vercel.com/font">Geist Mono</a> for monospaced fonts. These fonts behaves well even when they are small. Bigger font size ratio makes it more expressive.</p>
+<p>
+  <img src="/img/000063.webp" alt="A screenshot of the top part of my new home page." class="force-no-radius" />
+</p>
+
+<p>Colors are chosen carefully in mind. The default text colors are subtler than normal, making space for the emphasized text. Font sizes everywhere are adjusted by hand, allowing them to fit the whole context. Many other details are also well-considered, including <em>italics</em>, cases, weights and more.</p>
+<h2 id="Technologies"><a href="#Technologies" class="headerlink" title="Technologies"></a>Technologies</h2><p>This time, I selected <a target="_blank" rel="noopener" href="https://nextjs.org/">Next.js</a> as the framework. Next.js handles more at server side, so it performs better in client-side performance and SEO.</p>
+<p><a target="_blank" rel="noopener" href="https://tailwindcss.com/">Tailwind CSS</a> sucks. In order to boost my home page, I chose <a target="_blank" rel="noopener" href="https://sass-lang.com/">SCSS</a> as usual, elegant and enhanced CSS that does not pollute your codebase.</p>
+<p>In this project, I decided to use state-of-the-art web technologies. I believe these features will be available to more and more visitors.</p>
+<h3 id="sibling-index"><a href="#sibling-index" class="headerlink" title="sibling-index()"></a><a target="_blank" rel="noopener" href="https://developer.mozilla.org/docs/Web/CSS/sibling-index"><code>sibling-index()</code></a></h3><p>With <code>sibling-index()</code>, you will no longer need JavaScript for alternating delays of the sibling elements.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container si-demo&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;item&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;item&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;item&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;item&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;item&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;item&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@keyframes</span> si-demo-animation &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">    translate: <span class="number">0</span> <span class="number">16px</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    translate: <span class="number">0</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">    translate: <span class="number">0</span> -<span class="number">16px</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.si-demo</span> &gt; <span class="selector-class">.item</span> &#123;</span><br><span class="line">  <span class="attribute">animation</span>: si-demo-animation <span class="number">2s</span> infinite;</span><br><span class="line">  <span class="attribute">animation-delay</span>: <span class="built_in">calc</span>(<span class="built_in">sibling-index</span>() * <span class="number">0.1s</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="container si-demo">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div>
+
+<style>
+.si-demo {
+  display: flex;
+}
+
+@keyframes si-demo-animation {
+  0% {
+    opacity: 0;
+    translate: 0 16px;
+  }
+  50% {
+    opacity: 1;
+    translate: 0;
+  }
+  100% {
+    opacity: 0;
+    translate: 0 -16px;
+  }
+}
+
+.si-demo > .item {
+  flex-grow: 1;
+  height: 48px;
+  background-color: var(--color-text-primary);
+  animation: si-demo-animation 2s infinite;
+  animation-delay: calc(sibling-index() * 0.1s);
+
+  --r: var(--radius-small);
+}
+
+.si-demo > .item:first-child {
+  border-top-left-radius: var(--r);
+  border-bottom-left-radius: var(--r);
+}
+
+.si-demo > .item:last-child {
+  border-top-right-radius: var(--r);
+  border-bottom-right-radius: var(--r);
+}
+</style>
+
+<p>If your browser doesn’t support this feature, you won’t see the demo correctly.</p>
+<h3 id="animation-timeline-view"><a href="#animation-timeline-view" class="headerlink" title="animation-timeline: view()"></a><a target="_blank" rel="noopener" href="https://developer.mozilla.org/docs/Web/CSS/animation-timeline/view"><code>animation-timeline: view()</code></a></h3><p>Yet another un-Javascript-ify feature. With this, you no longer have to use JavaScript for tracking the position in the viewport of an element.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container view-animation-demo&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;dot&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@keyframes</span> view-animation-demo-animation &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">0%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.view-animation-demo</span> &gt; <span class="selector-class">.dot</span> &#123;</span><br><span class="line">  <span class="attribute">animation</span>: view-animation-demo-animation linear both;</span><br><span class="line">  <span class="attribute">animation</span>-timeline: <span class="built_in">view</span>(block);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Looks like this:</p>
+<div class="container view-animation-demo">
+  <div class="dot"></div>
+</div>
+
+<style>
+@keyframes view-animation-demo-animation {
+  0% {
+    opacity: 0.6;
+    width: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+    width: 100%;
+  }
+}
+
+.view-animation-demo > .dot {
+  background-color: var(--color-text-primary);
+  height: 4px;
+  border-radius: 2px;
+
+  animation: view-animation-demo-animation linear both;
+  animation-timeline: view(block);
+}
+</style>
+
+<p>If your browser doesn’t support this feature, you won’t see the demo correctly.</p>
+<h2 id="Optimizing"><a href="#Optimizing" class="headerlink" title="Optimizing"></a>Optimizing</h2><p>During the refactoring of my home page, I wished that my new home page can have a more excellent performance. So I improved my home page’s score according to the Lighthouse scores. The final result is stunning:</p>
+<figure>
+  <img src="/img/000064.webp" alt="My home page's Lighthouse scores are 95 for Performance, and 100 for Accessibility, Best Practices, and SEO."/>
+  <figcaption>Tested on MacBook Air M4, the result of "Performance" may vary on different devices.</figcaption>
+</figure>
+
+<p>You can also <a href="/pages/localhost_2025-09-03_22-29-29.html">view the full report with the report viewer</a>.</p>
+<h2 id="Ester-Eggs"><a href="#Ester-Eggs" class="headerlink" title="Ester Eggs"></a>Ester Eggs</h2><p>I’ve set an ester egg in my new home page. Until now, only 3.73% of the visitors have discovered it. Have fun! 🥳</p>
+<style>
+.force-no-radius {
+  --radius-tiny: 0;
+  --radius-small: 0;
+  --radius-medium: 0;
+  --radius-large: 0;
+  --radius-full: 0;
+  border-radius: 0;
+}
+</style>
+
+  </div>
+
+  
+  <div class="about" data-pagefind-ignore>
+    <h1>About this Post</h1>
+    <div class="details">
+      <p>This post is written by Mr. Will, licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
+    </div>
+    
+    <p class="tags">
+      <i class="bi bi-tags icon"></i>
+      
+      <a href="/tags/life/" class="tag">#life</a>
+      
+      <a href="/tags/design/" class="tag">#design</a>
+      
+      <a href="/tags/home-page/" class="tag">#home-page</a>
+      
+      <a href="/tags/webdev/" class="tag">#webdev</a>
+      
+    </p>
+    
+    
+  </div>
+  
+
+  <div class="container post-prev-next" data-pagefind-ignore>
+    <a class="next"></a>
+    
+    <a href="/2025/08/18/Kickstarting-a-New-Mac/" class="prev">
+      <div class="text">
+        <p class="label">Previous</p>
+        <h3 class="title">Kickstarting a New Mac</h3>
+      </div>
+    </a>
+    
+  </div>
+
+  
+    
+    
+    <script src="https://giscus.app/client.js" data-repo="MrWillCom/MrWillCom.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyODg5NTc5MTA=" data-category="Announcements" data-category-id="DIC_kwDOETkl1s4COQZm" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" data-loading="lazy" crossorigin="anonymous" async> </script>
+    
+  
+</article>
+
+
+    </main>
+    <footer>
+  <div class="inner">
+    <div class="links">
+      
+      <div class="group">
+        <h2 class="title">Blog</h2>
+        
+        <a href="/" class="item">Home</a>
+        
+        <a href="/archives" class="item">Archives</a>
+        
+        <a href="/tags" class="item">Tags</a>
+        
+        <a href="/categories" class="item">Categories</a>
+        
+        <a href="/search" class="item">Search</a>
+        
+        <a href="/friends" class="item">Friends</a>
+        
+        <a href="/projects" class="item">Projects</a>
+        
+        <a href="/resume" class="item">Resume</a>
+        
+        <a href="/about" class="item">About</a>
+        
+        <a href="/atom.xml" class="item">RSS</a>
+        
+      </div>
+      
+      <div class="group">
+        <h2 class="title">Projects</h2>
+        
+        <a target="_blank" rel="noopener" href="https://github.com/MrWillCom/hexo-theme-cupertino" class="item">Hexo Theme Cupertino</a>
+        
+        <a target="_blank" rel="noopener" href="https://github.com/MrWillCom/next-mastodon-gallery" class="item">Next Mastodon Gallery</a>
+        
+      </div>
+      
+      <div class="group">
+        <h2 class="title">Me</h2>
+        
+        <a target="_blank" rel="noopener" href="https://github.com/MrWillCom" class="item">GitHub</a>
+        
+        <a target="_blank" rel="noopener" href="https://codepen.io/mrwillcom" class="item">CodePen</a>
+        
+        <a target="_blank" rel="noopener" href="https://www.patreon.com/MrWillCom" class="item">Patreon</a>
+        
+        <a target="_blank" rel="noopener" href="https://noc.social/@MrWillCom" class="item">Mastodon</a>
+        
+        <a href="mailto:mr.will.com@outlook.com" class="item">Email</a>
+        
+      </div>
+      
+    </div>
+    <span>&copy; 2025 Mr. Will<br>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></span>
+    
+    
+      <br>
+      <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle">
+        <label>
+          <input type="radio" value="light">
+          <span>Light</span>
+        </label>
+        <label>
+          <input type="radio" value="dark">
+          <span>Dark</span>
+        </label>
+        <label>
+          <input type="radio" value="auto">
+          <span>Auto</span>
+        </label>
+      </div>
+    
+  </div>
+</footer>
+
+
+    
+<script src="/js/main.js"></script>
+
+
+    
+
+    
+    
+<script src="/js/scroll-reveal.js"></script>
+
+    
+
+    
+
+    
+
+    
+  </body>
+</html>
