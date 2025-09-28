@@ -106,6 +106,10 @@ nav .inner .nav-items .nav-item-home {
     width: 100%;
     flex-wrap: wrap;
   }
+  nav .inner .nav-items .nav-item:not(.is-icon) {
+    justify-content: flex-start;
+    width: 100%;
+  }
   nav .inner .nav-items .nav-item {
     height: 48px;
     pointer-events: none;
@@ -113,10 +117,6 @@ nav .inner .nav-items .nav-item-home {
     transform: translate(0, -10%);
     opacity: 0;
     transition: transform 0.4s, opacity 0.4s, color 0.5s;
-  }
-  nav .inner .nav-items .nav-item:not(.is-icon) {
-    justify-content: flex-start;
-    width: 100%;
   }
   nav .inner .nav-items .nav-item.is-icon {
     display: inline-flex;
@@ -168,11 +168,13 @@ nav .inner .nav-items .nav-item-home {
   transition: height 0.6s cubic-bezier(0.86, 0, 0.07, 1), -webkit-backdrop-filter 0.6s cubic-bezier(0.86, 0, 0.07, 1);
   transition: height 0.6s cubic-bezier(0.86, 0, 0.07, 1), backdrop-filter 0.6s cubic-bezier(0.86, 0, 0.07, 1);
   transition: height 0.6s cubic-bezier(0.86, 0, 0.07, 1), backdrop-filter 0.6s cubic-bezier(0.86, 0, 0.07, 1), -webkit-backdrop-filter 0.6s cubic-bezier(0.86, 0, 0.07, 1);
-  --height: 100px;
 }
 .nav-open .nav-mask > [order] {
   -webkit-backdrop-filter: blur(36px);
           backdrop-filter: blur(36px);
+}
+.nav-mask > [order] {
+  --height: 100px;
 }
 .nav-mask > [order][order="1"] {
   height: calc(var(--height) / 1);

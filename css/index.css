@@ -10,13 +10,6 @@
 @supports (animation-timeline: scroll()) {
   .hero.exit-while-scroll {
     --range: calc(var(--current-hero-height) * 0.5px);
-    will-change: filter, margin-top, margin-bottom, opacity, scale;
-    animation-name: hero-exit;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    animation-timeline: scroll();
-    animation-range: 0 var(--range);
-    transform-origin: left -100%;
   }
   @keyframes hero-exit-with-blur {
     0% {
@@ -40,6 +33,15 @@
       margin-bottom: calc(-1 * var(--range));
       scale: 0.9;
     }
+  }
+  .hero.exit-while-scroll {
+    will-change: filter, margin-top, margin-bottom, opacity, scale;
+    animation-name: hero-exit;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 0 var(--range);
+    transform-origin: left -100%;
   }
   .hero.exit-while-scroll.with-blur {
     animation-name: hero-exit-with-blur;
