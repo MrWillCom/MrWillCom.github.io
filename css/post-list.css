@@ -88,33 +88,3 @@
   margin-top: 12px;
   color: var(--color-text-secondary);
 }
-
-/* in archive page, use a more compact list view */
-.post-list.archives {
-  display: block;
-  max-width: 980px;
-}
-.post-list.archives .post-list-item {
-  border-radius: 0;
-  background-color: initial;
-  padding: 21px 0;
-  margin: 0;
-  border-bottom: 1px solid var(--color-border-primary);
-}
-.post-list.archives .post-list-item:nth-child(n) {
-  margin-left: 0;
-  margin-right: 0;
-}
-.post-list.archives .post-list-item:last-child {
-  border-bottom: none;
-}
-.post-list.archives .post-list-item a {
-  display: flex;
-}
-.post-list.archives .post-list-item .cover-img {
-  height: initial;
-  min-width: 180px;
-  width: 20vw;
-  border-radius: var(--radius-medium);
-  flex-shrink: 0;
-}
