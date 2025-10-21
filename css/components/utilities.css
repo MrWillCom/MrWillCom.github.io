@@ -124,7 +124,7 @@ body[data-color-scheme=dark] {
 }
 
 @supports (corner-shape: squircle) {
-  .squircle {
+  [data-corner-squircle=true] .corner-squircle {
     corner-shape: squircle;
     --radius-tiny: 10px;
     --radius-small: 20px;
@@ -132,10 +132,17 @@ body[data-color-scheme=dark] {
     --radius-large: 40px;
     --radius-full: 999px;
   }
+  [data-corner-squircle=true] .corner-squircle * {
+    --radius-tiny: 4px;
+    --radius-small: 8px;
+    --radius-medium: 12px;
+    --radius-large: 16px;
+    --radius-full: 999px;
+  }
 }
 
 @supports (corner-shape: initial) {
-  .no-squircle {
+  [data-corner-squircle=true] .no-corner-squircle {
     corner-shape: initial;
     --radius-tiny: 4px;
     --radius-small: 8px;
