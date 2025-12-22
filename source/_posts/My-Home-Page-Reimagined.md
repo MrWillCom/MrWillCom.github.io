@@ -197,9 +197,9 @@ During the refactoring of my home page, I wished that my new home page can have 
 
 You can also [view the full report with the report viewer](/pages/localhost_2025-09-03_22-29-29.html).
 
-## Ester Eggs
+## Easter Eggs
 
-I've set an ester egg in my new home page. Until now, only 3.73% of the visitors have discovered it. Have fun! 🥳
+I've set an easter egg in my new home page. Until now, only 3.73% of the visitors have discovered it. Have fun! 🥳
 
 <style>
 .force-no-radius {
