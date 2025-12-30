@@ -27,8 +27,7 @@ a:hover, a:focus-visible {
   z-index: 1100;
   background-color: var(--color-background-secondary-translucent);
   border: 1px solid var(--color-border-primary);
-  -webkit-backdrop-filter: var(--filter-blur);
-          backdrop-filter: var(--filter-blur);
+  backdrop-filter: var(--filter-blur);
   padding: 10px 20px;
   border-radius: var(--radius-full);
   transform: translateX(-50%) translateY(-100%) scale(0.9);

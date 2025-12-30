@@ -11,8 +11,7 @@ nav {
 }
 [data-nav-blur-gradient=false] nav {
   background-color: var(--color-background-secondary-translucent);
-  -webkit-backdrop-filter: var(--filter-blur);
-          backdrop-filter: var(--filter-blur);
+  backdrop-filter: var(--filter-blur);
 }
 nav .inner {
   max-width: 980px;
@@ -157,21 +156,17 @@ nav .inner .nav-items .nav-item-home {
   left: 0;
   right: 0;
   background-color: var(--color-background-primary-translucent);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   -webkit-mask-image: linear-gradient(to bottom, #000, transparent);
           mask-image: linear-gradient(to bottom, #000, transparent);
   -webkit-mask-composite: destination-in;
           mask-composite: destination-in;
   pointer-events: none;
   z-index: 1000;
-  transition: height 0.6s cubic-bezier(0.86, 0, 0.07, 1), -webkit-backdrop-filter 0.6s cubic-bezier(0.86, 0, 0.07, 1);
   transition: height 0.6s cubic-bezier(0.86, 0, 0.07, 1), backdrop-filter 0.6s cubic-bezier(0.86, 0, 0.07, 1);
-  transition: height 0.6s cubic-bezier(0.86, 0, 0.07, 1), backdrop-filter 0.6s cubic-bezier(0.86, 0, 0.07, 1), -webkit-backdrop-filter 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 .nav-open .nav-mask > [order] {
-  -webkit-backdrop-filter: blur(36px);
-          backdrop-filter: blur(36px);
+  backdrop-filter: blur(36px);
 }
 .nav-mask > [order] {
   --height: 100px;
