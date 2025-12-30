@@ -6,7 +6,7 @@
   --radius-large: 16px;
   --radius-full: 999px;
   --font-sans-serif: Inter, sans-serif, system-ui;
-  --font-sans-serif-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+  --font-sans-serif-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 @supports (font-variation-settings: normal) {
   :root {
@@ -178,6 +178,9 @@ body {
   font-size: 13px;
   margin-right: 6px;
   text-decoration: none;
+}
+#main-content > * > .meta .categories a:last-child {
+  margin-right: 0;
 }
 #main-content > * > .meta .date {
   display: block;
@@ -522,14 +525,16 @@ body {
     border-radius: 0;
   }
 }
-.post .about h1 {
-  margin: 0;
+.post .about h2,
+.post .about .details,
+.post .about .tags, .post .about > .extra {
+  margin-top: 0;
+  margin-bottom: 16px;
 }
-.post .about .details {
-  margin: 16px 0;
-}
-.post .about .details p {
-  margin: 6px 0;
+.post .about h2:last-child,
+.post .about .details:last-child,
+.post .about .tags:last-child, .post .about > .extra:last-child {
+  margin-bottom: 0;
 }
 .post .about > .extra {
   font-size: 15px;

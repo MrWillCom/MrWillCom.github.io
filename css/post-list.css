@@ -6,7 +6,7 @@
   --radius-large: 16px;
   --radius-full: 999px;
   --font-sans-serif: Inter, sans-serif, system-ui;
-  --font-sans-serif-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+  --font-sans-serif-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 @supports (font-variation-settings: normal) {
   :root {
@@ -232,6 +232,7 @@ body[data-color-scheme=dark] {
   font-weight: 600;
 }
 .post-list-item .categories span {
+  display: block;
   font-size: 11px;
   margin-right: 6px;
   text-decoration: none;

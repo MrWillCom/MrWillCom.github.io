@@ -6,7 +6,7 @@
   --radius-large: 16px;
   --radius-full: 999px;
   --font-sans-serif: Inter, sans-serif, system-ui;
-  --font-sans-serif-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+  --font-sans-serif-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 @supports (font-variation-settings: normal) {
   :root {
