@@ -14,6 +14,9 @@
     "version": "8.1.1"
   },
   "dependencies": {
+    "@minify-html/node": "^0.18.1",
+    "cssnano": "^7.1.2",
+    "esbuild": "^0.27.2",
     "hexo": "^8.1.1",
     "hexo-filter-mathjax": "^0.9.1",
     "hexo-generator-archive": "^2.0.0",
@@ -26,8 +29,8 @@
     "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "htmlnano": "^3.0.0",
-    "pagefind": "^1.4.0"
+    "pagefind": "^1.4.0",
+    "postcss": "^8.5.6"
   },
   "packageManager": "pnpm@10.26.2+sha512.0e308ff2005fc7410366f154f625f6631ab2b16b1d2e70238444dd6ae9d630a8482d92a451144debc492416896ed16f7b114a86ec68b8404b2443869e68ffda6",
   "devDependencies": {
