@@ -100,8 +100,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: cupertino
 
-plugins:
-  hexo-generator-feed
+plugins: hexo-generator-feed
 
 #Feed Atom
 feed:
@@ -132,21 +131,20 @@ search:
 #   placeholder: "''"
 
 ## giscus
-giscus:
-  <script src="https://giscus.app/client.js"
-    data-repo="MrWillCom/MrWillCom.github.io"
-    data-repo-id="MDEwOlJlcG9zaXRvcnkyODg5NTc5MTA="
-    data-category="Announcements"
-    data-category-id="DIC_kwDOETkl1s4COQZm"
-    data-mapping="pathname"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="preferred_color_scheme"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
+giscus: <script src="https://giscus.app/client.js"
+  data-repo="MrWillCom/MrWillCom.github.io"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkyODg5NTc5MTA="
+  data-category="Announcements"
+  data-category-id="DIC_kwDOETkl1s4COQZm"
+  data-mapping="pathname"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="preferred_color_scheme"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous"
+  async>
   </script>
 
 ## Ackee
