@@ -1,18 +1,1 @@
-.scroll-reveal {
-  opacity: 0;
-  transform: translateY(60px);
-}
-.scroll-reveal.scroll-reveal-show {
-  animation: 0.8s cubic-bezier(0.2, 0.2, 0.2, 1) 0.15s forwards scroll-reveal;
-}
-
-@keyframes scroll-reveal {
-  from {
-    opacity: 0;
-    transform: translateY(60px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+.scroll-reveal{opacity:0;transform:translateY(60px)}.scroll-reveal.scroll-reveal-show{animation:scroll-reveal .8s cubic-bezier(.2,.2,.2,1) .15s forwards}@keyframes scroll-reveal{0%{opacity:0;transform:translateY(60px)}to{opacity:1;transform:translateY(0)}}

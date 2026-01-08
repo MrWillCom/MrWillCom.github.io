@@ -1,18 +1,1 @@
-;(() => {
-  const f = () => {
-    try {
-      document.getElementById(
-        'tidio-chat-iframe',
-      ).contentDocument.documentElement.style.colorScheme = 'light dark'
-    } catch (error) {}
-
-    if (
-      document.getElementById('tidio-chat-iframe')?.contentDocument
-        ?.documentElement?.style?.colorScheme !== 'light dark'
-    ) {
-      setTimeout(f, 250)
-    }
-  }
-
-  f()
-})()
+(()=>{const e=()=>{var t,c,o,m;try{document.getElementById("tidio-chat-iframe").contentDocument.documentElement.style.colorScheme="light dark"}catch(n){}((m=(o=(c=(t=document.getElementById("tidio-chat-iframe"))==null?void 0:t.contentDocument)==null?void 0:c.documentElement)==null?void 0:o.style)==null?void 0:m.colorScheme)!=="light dark"&&setTimeout(e,250)};e()})();

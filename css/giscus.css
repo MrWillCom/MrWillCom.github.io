@@ -1,7 +1,1 @@
-.giscus {
-  width: calc(100% - 32px);
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 16px;
-}
+.giscus{margin-left:auto;margin-right:auto;max-width:800px;padding:0 16px;width:calc(100% - 32px)}
