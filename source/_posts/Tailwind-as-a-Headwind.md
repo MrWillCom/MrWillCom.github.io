@@ -37,7 +37,7 @@ Structure overshadows flatness. Clarity comes from organization, not obfuscation
 <style>
 @import url('https://unpkg.com/@ibm/plex-sans@1/css/ibm-plex-sans-all.min.css');
 
-.post {
+.post .meta, .post .content {
   font-family: 'IBM Plex Sans', var(--font-sans-serif);
 }
 
