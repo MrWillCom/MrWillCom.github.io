@@ -13,13 +13,6 @@ about_extra_description: <small class="about-aigc-note">This post is written by 
 
 I've been contemplating writing a critique of Tailwind CSS for years. Initially, I assumed Tailwind was simply "not for me" and moved on. However, as it has grown in dominance, I've realized its impact on the ecosystem is impossible to ignore.
 
-<div class="container">
-  <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="azZZNyY" data-pen-title="HOW CHAOTIC TAILWIND IS" data-user="mrwillcom" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-    <span>See the Pen <a href="https://codepen.io/mrwillcom/pen/azZZNyY">HOW CHAOTIC TAILWIND IS</a> by Mr. Will (<a href="https://codepen.io/mrwillcom">@mrwillcom</a>) on <a href="https://codepen.io">CodePen</a>.</span>
-  </p>
-</div>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
-
 Technically, Tailwind is a CSS generator. It scans your project for utility classes and generates a stylesheet based on predefined rules. This approach ensures that unused class names are excluded, and the use of shorthands (aliases) instead of long-form CSS rules is understandably popular. At first glance, the benefits are clear: reduced bundle sizes and the convenience of styling elements without switching to a separate CSS file. It seems peaceful—but that peace is fragile.
 
 If you stick strictly to Tailwind's built-in classes, you are safe for the time being. However, the moment you implement custom plugins to support modern CSS features, you hit a wall. The CSS standard is evolving rapidly, and Tailwind cannot always stay up-to-date. To access new features, you must often do the heavy lifting yourself. Writing complex `@supports` fallbacks within a Tailwind configuration file result in code that is far less readable than native CSS.
