@@ -15,7 +15,7 @@ My home page is at [mrwillcom.com](https://mrwillcom.com/). Last time I refactor
 
 ## Designing
 
-My idea is inspired by [Vercel's home page](http://vercel.com/home). Square and light borders can make the main area stand out and attract the visitors to focus the main area. I usd pure white for the main area, but a brighter black for it in dark mode, so the main area is always brighter than the underlying background.
+My idea is inspired by [Vercel's home page](http://vercel.com/home). Square and light borders can make the main area stand out and attract the visitors to focus the main area. I used pure white for the main area, but a brighter black for it in dark mode, so the main area is always brighter than the underlying background.
 
 For typography, I chose [Inter](https://rsms.me/inter/) for all sans-serif fonts and [Geist Mono](https://vercel.com/font) for monospaced fonts. These fonts behaves well even when they are small. Bigger font size ratio makes it more expressive.
 
