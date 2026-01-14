@@ -33,6 +33,41 @@ As CSS evolves, development is becoming more straightforward, not more complex. 
 
 Structure overshadows flatness. Clarity comes from organization, not obfuscation. We should not step back to a time when we put all our styling in `style` attributes. For the sake of our common future, please do not choose Tailwind.
 
+<details class="container">
+  <summary>Manuscript</summary>
+
+I've been thinking of writing a post to criticize Tailwind CSS for a long time, maybe years. I used to suppose that Tailwind didn't have much to do with me. However, as it developed, I gradually became wrong.
+
+Tailwind, in fact, should be considered to be a CSS generator. It finds all mentions in your project and generate CSS according to its rules. So unused class names are not included in generated CSS.
+
+Plus, Tailwind's class names are utility-first and are shorthands of the original CSS rules. This is highly appreciated. No long CSS rules any more, the developers use aliases.
+
+It's easy to expect that the bundle size is reduced. Developers no longer need to go to a separate CSS file for their styles. Seems peaceful? I hope so.
+
+If you only use Tailwind's built-in class names, you're safe for now. But if you implemented some custom plugins to extend support for more CSS features, you have no way out.
+
+CSS standard is changing fast, therefore Tailwind can't be always up-to-date. To access new CSS features, you'll have to do this job for Tailwind. With complex `@supports` for fallbacks, your Tailwind configuration file will be much more unreadable than native CSS.
+
+And, you don't know whether your solution corresponds to the future Tailwind's. You may need to migrate to official support in some day in the future by replacing all your obselete class names. Or even worse, your design may break in an unexpected way because of naming conflicts.
+
+Complicated styles are particularly hard to convey in Tailwind. Some styles need nesting and heavy reuses. Writing them again and again in class names not only creates chaos, but also makes it more difficult to maintain. Calculation in CSS is one of the most notable point here as it requires rational logic and clean syntax to avoid mistakes. You won't love the experience of writing `calc()` in Tailwind.
+
+Till here, you may say that we should switch to native CSS for complex styles when needed because Tailwind is compatible with CSS. But in the era of at-rules, nesting becomes so essentially that I cannot live without it. Especially when dealing with many at-rules, nesting helps me make structure clear and improve my thinking quality. I'm able to compose a fine CSS in a shorter time because I can see what I've done in a clean list, not a compact chaos.
+
+However, though native CSS nesting is now widely supported, I still cannot remove Sass. I can hardly abandon the 8.07% browsers that doesn't support nesting because the whole webpage breaks without it, which makes it crucial, not optional. As for now, we still need Sass during the transition.
+
+After that, when I'm trying to look up the docs for the guide on how to add Sass to a Tailwind project, I found:
+
+> Think of Tailwind CSS itself as your preprocessor — you shouldn’t use Tailwind with Sass for the same reason you wouldn’t use Sass with Stylus.
+
+That's dogmatic. Tailwind is powerful, but not enough. Tailwind Labs is not facing up to their weakness, meanwhile not accepting better replacements, making CSS developers like me feel disappointed.
+
+As CSS develops, CSS developing is only becoming more straightforward and never more complex. Modern CSS features like nesting, allows you to build maintainable projects without the tools we used to use. CSS is evolving to be more structural and comprehensive.
+
+Structure overshadows flatness. Clarity comes from organizing, not mixing. Do not step back to the time when we put all CSS in `style` attributes. So do not Tailwind please, for our common future.
+
+</details>
+
 <style>
 @import url('https://unpkg.com/@ibm/plex-sans@1/css/ibm-plex-sans-all.min.css');
 
@@ -49,3 +84,4 @@ Structure overshadows flatness. Clarity comes from organization, not obfuscation
   }
 }
 </style>
+
