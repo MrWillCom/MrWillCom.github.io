@@ -1,1 +1,1 @@
-const lenis=new Lenis;function raf(n){lenis.raf(n),requestAnimationFrame(raf)}requestAnimationFrame(raf);
+(()=>{const e=new Lenis;function n(i){e.raf(i),requestAnimationFrame(n)}requestAnimationFrame(n)})();
