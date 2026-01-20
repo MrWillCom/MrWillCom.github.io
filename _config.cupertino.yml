@@ -58,12 +58,6 @@ nav:
     - name: <i class="si si-github"></i>
       is_icon: true
       url: https://github.com/MrWillCom
-    - name: <i class="si si-codepen"></i>
-      is_icon: true
-      url: https://codepen.io/mrwillcom
-    - name: <i class="si si-patreon"></i>
-      is_icon: true
-      url: https://www.patreon.com/MrWillCom
     - name: <i class="si si-mastodon"></i>
       is_icon: true
       url: https://noc.social/@MrWillCom
