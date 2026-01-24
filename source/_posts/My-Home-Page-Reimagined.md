@@ -11,6 +11,8 @@ tags:
 categories: Announcement
 ---
 
+<script src="https://unpkg.com/baseline-status@1/baseline-status.min.js" type="module"></script>
+
 My home page is at [mrwillcom.com](https://mrwillcom.com/). Last time I refactor my home page is over 3 years ago. That version was based on Markdown, written in [Nunjucks](https://mozilla.github.io/nunjucks) and built by [Eleventy](https://www.11ty.dev/). Information used to live in tables, which wasn't eye-catching enough. All layouts were similar and boring. This prompts me to begin refactoring my home page again.
 
 ## Designing
@@ -120,7 +122,9 @@ With `sibling-index()`, you will no longer need JavaScript for alternating delay
 }
 </style>
 
-If your browser doesn't support this feature, you won't see the demo correctly.
+If your browser doesn't support this feature, you won't see the demo correctly. Current support status:
+
+<baseline-status featureId="sibling-count"></baseline-status>
 
 ### [`animation-timeline: view()`](https://developer.mozilla.org/docs/Web/CSS/animation-timeline/view)
 
@@ -184,7 +188,9 @@ Looks like this:
 }
 </style>
 
-If your browser doesn't support this feature, you won't see the demo correctly.
+If your browser doesn't support this feature, you won't see the demo correctly. Current support status:
+
+<baseline-status featureId="scroll-driven-animations"></baseline-status>
 
 ## Optimizing
 
