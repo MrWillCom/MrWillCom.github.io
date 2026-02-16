@@ -1,6 +1,8 @@
 insertions:
   head:
     ending: |
+      <link rel="me" href="https://vmst.io/@MrWillCom" />
+      <meta name="fediverse:creator" content="@MrWillCom@vmst.io" />
       <script defer src="https://cloud.umami.is/script.js" data-website-id="bff537e4-989e-4ae3-9639-73a36c0b494f" data-domains="blog.mrwillcom.com,mrwillcom.github.io"></script>
       <script>
         window.op = window.op||function(...args){(window.op.q=window.op.q||[]).push(args);};
