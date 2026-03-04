@@ -38,7 +38,7 @@ insertions:
 hero:
   title: Mr. Will's Blog
   description: |
-    Happy New Year! 🎊
+    Mr. Will is talking here.
 
 hero_exit_while_scrolling:
   enabled: true
