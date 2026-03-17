@@ -53,8 +53,6 @@ nav:
       url: /archives
     - name: Friends
       url: /friends
-    - name: Projects
-      url: /projects
     - name: About
       url: /about
     - name: <i class="si si-github"></i>
@@ -82,8 +80,6 @@ footer:
         url: /search
       - name: Friends
         url: /friends
-      - name: Projects
-        url: /projects
       - name: Resume
         url: /resume
       - name: About
