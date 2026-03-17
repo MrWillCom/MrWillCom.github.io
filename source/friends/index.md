@@ -4,25 +4,6 @@ no_date: true
 no_comments: true
 ---
 
-## Me
-
-<div class="container">
-    <div class="card" style="display: grid; grid-template-columns: minmax(128px, 10%) 1fr; padding: 8px 16px;">
-        <img src="/favicon.webp" alt="Mr. Will's blog's logo" style="height: 100%; object-fit: contain;">
-        <div>
-            <h1>Mr. Will</h1>
-            <p>I'm a JavaScript developer, working on some JavaScript open source projects, learning some JavaScript coding skills and sharing my JavaScript coding experiences.</p>
-            <div class="actions">
-                <div class="right">
-                    <a class="action-button-primary" href="mailto:mr.will.com@outlook.com">Contact</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-## Friends
-
 <div class="card-grid">
     <div class="card">
         <div class="cover-img">
