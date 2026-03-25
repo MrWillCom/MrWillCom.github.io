@@ -58,8 +58,7 @@ Tailwind 不能与我所爱的 [SCSS（Sass）](https://sass-lang.com/)共存—
 
 今年用相机记录下了大约 1.6k 张/段影像。主要是上半年高考备考，所以相较去年有很大程度减少。此外，由于之前那一台 Canon EOS M3 应该是差不多九岁了，翻转屏和 SD 卡槽已经不灵光了。高考完之后，决定彻底升级一次，于是入手了一台新相机来替代它。全画幅传感器的新相机配上大变焦头 24-200 mm，出门玩只需一机一镜，也是爽爽的。
 
-十二月再次施放传统艺能，做了一套明信片，并且给好友们各寄了一套。我给它取名叫“<ruby>Post<rt>后</rt></ruby><ruby>summer<rt>夏</rt></ruby>
-”，本意是后夏，这里表达初秋。
+十二月再次施放传统艺能，做了一套明信片，并且给好友们各寄了一套。我给它取名叫“<ruby>Post<rt>后</rt></ruby><ruby>summer<rt>夏</rt></ruby>”，本意是后夏，这里表达初秋。
 
 <div class="carousel">
   <img src="/img/000072.webp" alt="明信片的展示图片（1/5）" class="carousel-item" />
