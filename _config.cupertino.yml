@@ -52,7 +52,7 @@ nav:
     - name: Archives
       url: /archives
     - name: Friends
-      url: /friends
+      url: https://mrwillcom.com/#friends
     - name: About
       url: /about
     - name: <i class="si si-github"></i>
@@ -79,7 +79,7 @@ footer:
       - name: Search
         url: /search
       - name: Friends
-        url: /friends
+        url: https://mrwillcom.com/#friends
       - name: Resume
         url: /resume
       - name: About
