@@ -15,13 +15,13 @@
   },
   "dependencies": {
     "@minify-html/node": "^0.18.1",
-    "cssnano": "^7.1.2",
-    "esbuild": "^0.27.3",
-    "hexo": "^8.1.1",
+    "cssnano": "^8.0.1",
+    "esbuild": "^0.28.0",
+    "hexo": "^8.1.2",
     "hexo-filter-mathjax": "^0.9.1",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-feed": "^4.0.0",
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-search": "^2.4.3",
     "hexo-generator-tag": "^2.0.0",
@@ -29,11 +29,11 @@
     "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "pagefind": "^1.4.0",
-    "postcss": "^8.5.6"
+    "pagefind": "^1.5.2",
+    "postcss": "^8.5.14"
   },
   "packageManager": "pnpm@10.28.2+sha512.41872f037ad22f7348e3b1debbaf7e867cfd448f2726d9cf74c08f19507c31d2c8e7a11525b983febc2df640b5438dee6023ebb1f84ed43cc2d654d2bc326264",
   "devDependencies": {
-    "prettier": "3.8.1"
+    "prettier": "3.8.3"
   }
 }
