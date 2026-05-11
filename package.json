@@ -11,7 +11,7 @@
     "format": "prettier . --write"
   },
   "hexo": {
-    "version": "8.1.1"
+    "version": "8.1.2"
   },
   "dependencies": {
     "@minify-html/node": "^0.18.1",
