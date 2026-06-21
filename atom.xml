@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, Mr. Will</rights>
   <subtitle>Mr. Will's Blog</subtitle>
   <title>Mr. Will</title>
-  <updated>2026-06-21T12:49:13.062Z</updated>
+  <updated>2026-06-21T12:51:51.652Z</updated>
   <entry>
     <author>
       <name>Mr. Will</name>
@@ -29,15 +29,15 @@
       <![CDATA[<p>Have you ever been in a group chat where someone says “lol” and an AI bot immediately responds with a full paragraph? Or sent a quick “ok]]>
     </summary>
     <title>Teaching AI When to Stay Silent</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
       <name>Mr. Will</name>
     </author>
     <category term="Essay" scheme="https://blog.mrwillcom.com/categories/Essay/"/>
-    <category term="misc" scheme="https://blog.mrwillcom.com/tags/misc/"/>
     <category term="life" scheme="https://blog.mrwillcom.com/tags/life/"/>
+    <category term="misc" scheme="https://blog.mrwillcom.com/tags/misc/"/>
     <category term="linguistics" scheme="https://blog.mrwillcom.com/tags/linguistics/"/>
     <category term="english" scheme="https://blog.mrwillcom.com/tags/english/"/>
     <content>
@@ -51,7 +51,7 @@
 <p>但很可惜，这个设置项的行为令人迷惑。界面不会完全变成中文，只有界面的一部分是中文，而其余部分则依然保持英语。有些情况可以]]>
     </summary>
     <title>不会翻译的话，其实可以不翻译的</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -71,7 +71,7 @@
       <![CDATA[<p>Today is the vernal equinox—the date I picked for the debut of The Vernal Fortnightly. I’m so excited to introduce my brand-new personal]]>
     </summary>
     <title>Announcing The Vernal Fortnightly</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -92,7 +92,7 @@
 <hr class="break-di]]>
     </summary>
     <title>2025 年终总结</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -113,7 +113,7 @@
       <![CDATA[<p>I’ve been contemplating writing a critique of Tailwind CSS for years. Initially, I assumed Tailwind was simply “not for me” and moved on.]]>
     </summary>
     <title>Tailwind as a Headwind</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -137,7 +137,7 @@
 <p>My home page is at <a href="https://mrw]]>
     </summary>
     <title>My Home Page, Reimagined</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -157,7 +157,7 @@
       <![CDATA[<p>Recently, I purchased a new MacBook Air. Since this is the second time that I set up a new Mac, I would like to share some useful, essent]]>
     </summary>
     <title>Kickstarting a New Mac</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -167,7 +167,7 @@
     <category term="life" scheme="https://blog.mrwillcom.com/tags/life/"/>
     <category term="email" scheme="https://blog.mrwillcom.com/tags/email/"/>
     <content>
-      <![CDATA[<p>I previously used <a href="https://forwardemail.net/">Forward Email</a> for my domain email. It could forward all emails sent to <code>*@mrwillcom.com</code> to my Outlook’s inbox. However, it did not allow me to use <code>*@mrwillcom.com</code> to send emails from or reply to messages.</p><p>After transferring my domain from <a href="https://www.namesilo.com/">Namesilo</a> + <a href="https://vercel.com/">Vercel</a> (as nameserver) to <a href="https://domains.cloudflare.com/">Cloudflare</a>, which reduced a small share of annual expense, I attempted to migrate to <a href="https://www.cloudflare.com/developer-platform/products/email-routing/">Cloudflare Email Routing</a>. While this also did not support sending emails, it offered a graph on its dashboard and a special feature — <a href="https://developers.cloudflare.com/email-routing/email-workers/">Email Workers</a>.</p><p><img src="/img/000049.webp" alt="A screenshot of the dashboard of Cloudflare Email Routing"></p><p>Although Cloudflare’s products appeared promising, I was determined to send emails. This led me to seek out <a href="https://www.spaceship.com/business-email/">Spacemail</a>, which stood out for its eye-catching pricing. The starter plan contained all the features I needed at a cost of only $4.95&#x2F;yr. I could hardly overlook this option.</p><p>By starting 30 day free trial, I have begun experiencing Spacemail. Spacemail has a clear web interface with essential functionalities built in, which is simple and responds fast.</p><div class="carousel">  <figure>    <img src="/img/000051.webp" alt="A screenshot of Spacemail web interface." class="carousel-item" />    <figcaption>Web interface.</figcaption>  </figure>  <figure>    <img src="/img/000052.webp" alt="IMAP, SMTP and POP3 access." class="carousel-item" />    <figcaption>IMAP, SMTP and POP3 access.</figcaption>  </figure>  <figure>    <img src="/img/000053.webp" alt="Email forwarding." class="carousel-item" />    <figcaption>Email forwarding.</figcaption>  </figure>  <figure>    <img src="/img/000054.webp" alt="A catch-all (fallback) mailbox." class="carousel-item" />    <figcaption>A catch-all (fallback) mailbox.</figcaption>  </figure></div><p>With IMAP, SMTP and POP3 access, I don’t have to stick to the web app. I now use <a href="https://support.apple.com/guide/mail/welcome/mac">Apple Mail</a> and <a href="https://www.thunderbird.net/">Thunderbird</a> for my domain email.</p><p>Welcome to send an email to <a href="mailto:&#x68;&#x69;&#x40;&#x6d;&#x72;&#119;&#105;&#108;&#108;&#x63;&#111;&#109;&#46;&#99;&#111;&#109;"><code>hi@mrwillcom.com</code></a>!</p>]]>
+      <![CDATA[<p>I previously used <a href="https://forwardemail.net/">Forward Email</a> for my domain email. It could forward all emails sent to <code>*@mrwillcom.com</code> to my Outlook’s inbox. However, it did not allow me to use <code>*@mrwillcom.com</code> to send emails from or reply to messages.</p><p>After transferring my domain from <a href="https://www.namesilo.com/">Namesilo</a> + <a href="https://vercel.com/">Vercel</a> (as nameserver) to <a href="https://domains.cloudflare.com/">Cloudflare</a>, which reduced a small share of annual expense, I attempted to migrate to <a href="https://www.cloudflare.com/developer-platform/products/email-routing/">Cloudflare Email Routing</a>. While this also did not support sending emails, it offered a graph on its dashboard and a special feature — <a href="https://developers.cloudflare.com/email-routing/email-workers/">Email Workers</a>.</p><p><img src="/img/000049.webp" alt="A screenshot of the dashboard of Cloudflare Email Routing"></p><p>Although Cloudflare’s products appeared promising, I was determined to send emails. This led me to seek out <a href="https://www.spaceship.com/business-email/">Spacemail</a>, which stood out for its eye-catching pricing. The starter plan contained all the features I needed at a cost of only $4.95&#x2F;yr. I could hardly overlook this option.</p><p>By starting 30 day free trial, I have begun experiencing Spacemail. Spacemail has a clear web interface with essential functionalities built in, which is simple and responds fast.</p><div class="carousel">  <figure>    <img src="/img/000051.webp" alt="A screenshot of Spacemail web interface." class="carousel-item" />    <figcaption>Web interface.</figcaption>  </figure>  <figure>    <img src="/img/000052.webp" alt="IMAP, SMTP and POP3 access." class="carousel-item" />    <figcaption>IMAP, SMTP and POP3 access.</figcaption>  </figure>  <figure>    <img src="/img/000053.webp" alt="Email forwarding." class="carousel-item" />    <figcaption>Email forwarding.</figcaption>  </figure>  <figure>    <img src="/img/000054.webp" alt="A catch-all (fallback) mailbox." class="carousel-item" />    <figcaption>A catch-all (fallback) mailbox.</figcaption>  </figure></div><p>With IMAP, SMTP and POP3 access, I don’t have to stick to the web app. I now use <a href="https://support.apple.com/guide/mail/welcome/mac">Apple Mail</a> and <a href="https://www.thunderbird.net/">Thunderbird</a> for my domain email.</p><p>Welcome to send an email to <a href="mailto:&#104;&#x69;&#64;&#x6d;&#x72;&#119;&#x69;&#108;&#x6c;&#99;&#111;&#x6d;&#46;&#99;&#x6f;&#109;"><code>hi@mrwillcom.com</code></a>!</p>]]>
     </content>
     <id>https://blog.mrwillcom.com/2025/08/01/Refining-My-Domain-Email/</id>
     <link href="https://blog.mrwillcom.com/2025/08/01/Refining-My-Domain-Email/"/>
@@ -177,7 +177,7 @@
       <![CDATA[<p>I previously used <a href="https://forwardemail.net/">Forward Email</a> for my domain email. It could forward all emails sent to <code>*@]]>
     </summary>
     <title>Refining My Domain Email</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -199,7 +199,7 @@
 <p>和大部分人使用浏览器书签或者导航]]>
     </summary>
     <title>2024：浏览器从 A 到 Z</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -219,7 +219,7 @@
       <![CDATA[<p>上海高中每年秋天都会有明信片互寄的活动<del>，同学们只需要写好明信片投进相应的小箱子里就行了，而外联部要考虑的就多了</del>。很多社团还有少数个人会在这时候卖明信片。大家会在大群里发问卷和收款码，以一种高度文明的方式做生意。前年看到后，就决定第二年自己也整点。于是去]]>
     </summary>
     <title>数模转换：微喷打印影像输出！</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -257,7 +257,7 @@
       <![CDATA[<p style="text-align: center"><small><strong>时光机</strong> · 2022 年度总结 · <a href="/2022/12/19/It-s-just-the-Beginning/">这不过是个开场</a></small></]]>
     </summary>
     <title>2023 年度总结</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -279,7 +279,7 @@
 <h2 id="寒假"><a href="#寒假" class="headerlink" title="寒假"></a>寒假</h2><p><img src="/img/000027.pn]]>
     </summary>
     <title>这不过是个开场</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -299,7 +299,7 @@
       <![CDATA[<p>Introducing tags &amp; categories features, <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http:/]]>
     </summary>
     <title>Hello, Tags, Categories, LaTeX and Rainbow!</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -321,7 +321,7 @@
 <p>RSA CLI is based on Node.js, works perfectly with all th]]>
     </summary>
     <title>Encrypt it on Your Own!</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -340,7 +340,7 @@
       <![CDATA[<p>I haven’t updated my blog for a long time. Recently, I found some unkind comments here, but they are not allowed. So, I removed them then]]>
     </summary>
     <title>About Comments</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -362,7 +362,7 @@
 <p><img src="/img/000017.png" alt="A screenshot of the ap]]>
     </summary>
     <title>GitHub's Own Dark Mode!</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -383,7 +383,7 @@
 <p>Apple updated their Newsroom’s UI 2 weeks ago. I’ve updated the]]>
     </summary>
     <title>Theme Cupertino is Updated</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -402,7 +402,7 @@
       <![CDATA[<p>If you contact me, I can’t respond just on weekdays.</p>]]>
     </summary>
     <title>From Now on, I Can't Respond on Weekdays</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
   <entry>
     <author>
@@ -424,6 +424,6 @@
       <![CDATA[<p>Apple updated Apple Newsroom’s UI.</p>]]>
     </summary>
     <title>Apple Newsroom's UI is Updated</title>
-    <updated>2026-06-21T12:49:13.062Z</updated>
+    <updated>2026-06-21T12:51:51.652Z</updated>
   </entry>
 </feed>
