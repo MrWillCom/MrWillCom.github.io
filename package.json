@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@minify-html/node": "^0.18.1",
-    "cssnano": "^8.0.10",
+    "cssnano": "^9.9.0",
     "esbuild": "^0.28.2",
     "hexo": "^8.1.2",
     "hexo-filter-mathjax": "^0.11.1",
