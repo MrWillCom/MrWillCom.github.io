@@ -34,6 +34,4 @@ My [gallery](https://gallery.mrwillcom.com/) is born in April, 2023.
 
 This blog is based on Hexo, automatically built by [GitHub Actions](https://github.com/MrWillCom/MrWillCom.github.io/blob/master/.github/workflows/blog-builder.yml), available at [blog.mrwillcom.com](https://blog.mrwillcom.com/) (powered by [Vercel](https://vercel.com/)) and [mrwillcom.github.io](https://mrwillcom.github.io/) (powered by GitHub Pages).
 
-This blog also has a mirror on xLog, [xlog.mrwillcom.com](https://xlog.mrwillcom.com/), part of my posts are mirrored there.
-
 This theme is called Cupertino, designed with the inspiration from [Apple Newsroom](https://www.apple.com/newsroom/), it's open source and you can get it [here](https://github.com/MrWillCom/hexo-theme-cupertino).
