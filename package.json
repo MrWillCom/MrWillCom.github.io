@@ -15,10 +15,10 @@
   },
   "dependencies": {
     "@minify-html/node": "^0.18.1",
-    "cssnano": "^8.0.2",
-    "esbuild": "^0.28.1",
+    "cssnano": "^8.0.10",
+    "esbuild": "^0.28.2",
     "hexo": "^8.1.2",
-    "hexo-filter-mathjax": "^0.11.0",
+    "hexo-filter-mathjax": "^0.11.1",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^4.0.0",
@@ -29,10 +29,10 @@
     "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "pagefind": "^1.5.2",
-    "postcss": "^8.5.23"
+    "pagefind": "^1.6.0",
+    "postcss": "^8.5.32"
   },
-  "packageManager": "pnpm@11.17.0+sha512.cca3cea332ad254bb84145f966d19f4879615210346fc92c79a047f23a0d7b3cca3c3792f0076ba1f1831d277efbcf0a9119b31a9a60eca7fb3d6231f331ef72",
+  "packageManager": "pnpm@12.18.0+sha512.9d7882d5dc82147ecfc4e062aa34834e0ad0296710a1837a1115ae012127d36b7109e321ac1598a1dd0a65597681b1e99917e12ed0d749eae91187943363beb3",
   "devDependencies": {
     "prettier": "3.9.6"
   }
